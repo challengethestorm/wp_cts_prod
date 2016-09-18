@@ -1,0 +1,12 @@
+.su-carousel-slide {
+	background-color: #fff;
+	border:1px solid #eee;
+	display: flex;
+	align-items: inherit;
+}
+.su-carousel-slide > a,
+.su-carousel-slide > img,
+.su-carousel-slide > a > img {
+	background:none !important;
+	border:none !important;
+}

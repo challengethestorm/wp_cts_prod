@@ -1,0 +1,12 @@
+/* lte IE 9 style*/
+.wp-caption {
+	-pie-background: rgb(255, 255, 255) none scroll ;
+	position: relative;
+}
+
+.post-list a.next-page-link {
+	border-radius: 3px;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

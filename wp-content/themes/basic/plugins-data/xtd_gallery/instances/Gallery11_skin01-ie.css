@@ -1,0 +1,51 @@
+/* lte IE 9 style*/
+.xtd-mobile-caption-title {
+	color: #FFFFFF;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-hide-sel-frame {
+	-pie-background: transparent none scroll ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-frame {
+	-pie-background: rgb(255, 255, 255) none scroll ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-outer {
+	-pie-background: rgb(255, 255, 255) none scroll ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-close {
+	-pie-background: transparent url('skin01_assets/fancybox.png') scroll -40px 0px ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-left, .Gallery11_lightbox #fancybox-right {
+	-pie-background: transparent url('skin01_assets/blank.gif') scroll ;
+	position: relative;
+}
+
+.Gallery11_lightbox .fancybox-title-inside {
+	-pie-background: rgb(255, 255, 255) none scroll ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-title-float-left {
+	-pie-background: transparent url('skin01_assets/fancybox.png') no-repeat scroll -40px -90px ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-title-float-main {
+	-pie-background: transparent url('skin01_assets/fancybox-x.png') scroll 0px -40px ;
+	position: relative;
+}
+
+.Gallery11_lightbox #fancybox-title-float-right {
+	-pie-background: transparent url('skin01_assets/fancybox.png') no-repeat scroll -55px -90px ;
+	position: relative;
+}
+

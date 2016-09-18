@@ -1,0 +1,22 @@
+body {
+	border-radius: 0px;
+}
+
+.@instanceName #fancybox-outer {
+	position:relative;
+	-pie-poll:true;
+}
+
+.@instanceName #fancybox-content{
+	position:relative;
+    border-radius: @rounded_corners_size @rounded_corners_size 0px 0px;
+} 
+
+.@instanceName .fancybox-title-outside {
+	position:relative;
+	border-radius: 0px 0px @rounded_corners_size @rounded_corners_size;
+	-pie-background-color: @container_color;
+}
+
+.@instanceName img {-ms-interpolation-mode: bicubic;}
+

@@ -1,0 +1,42 @@
+.custom-field-name {
+  float: left;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+
+input.button.updatemeta.button-small {
+  margin: 14px 14px 14px 0px!important;
+  display: inline-block;
+  float: left;
+}
+
+input.button.updatemeta.button-small.updatebutton{
+  display: none;
+}
+
+tr.custom-post-field td {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  padding: 10px;
+}
+
+.field-updated {
+  padding: 4px 10px;
+  color: white;
+  font-size: 14px;
+  background-color: rgb(64, 216, 64);
+  width: 200px;
+  border-radius: 0px 0px 10px 10px;
+  transition: all 1s cubic-bezier(0.4, 0, 1, 1);
+  display: none;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: -12px;
+}
+
+.field-updated.visible{
+	 opacity: 1;
+}

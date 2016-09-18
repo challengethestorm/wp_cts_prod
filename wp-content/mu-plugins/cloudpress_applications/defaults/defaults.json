@@ -1,0 +1,143 @@
+{
+    "Portfolio": {
+        "name": "Portfolio",
+        "singular": "Project",
+        "archive": "true",
+        "fields": {
+            "Company": "text",
+            "Company Link": "link",
+            "Thumb Image": "image",
+            "Large Image": "image",
+            "Video": "video"
+        },
+        "slug": "portfolio",
+        "icon": "\/wp-content\/mu-plugins\/cloudpress_applications\/defaults\/portfolio-icon.png",
+        "enabled": true,
+        "has-detail": true,
+        "tags": "Desktop,Mobile",
+        "contents": {
+            "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><!--more--><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>",
+            "Thumb Image": "@@SITE_URL@@/wp-content/mu-plugins/cloudpress_applications/defaults/portfolio/assets/thumb-@@INDEX@@.jpg",
+            "Large Image": "@@SITE_URL@@/wp-content/mu-plugins/cloudpress_applications/defaults/portfolio/assets/large-@@INDEX@@.jpg",
+            "Company": "Company",
+            "nr_of_items": 12,
+            "posts_categories": {
+                "All": {
+                    "start": 0,
+                    "length": 12
+                },
+                "Latest": {
+                    "start": 0,
+                    "length": 6
+                },
+                "Photo": {
+                    "start": 0,
+                    "length": 3
+                },
+                "Video": {
+                    "start": 3,
+                    "length": 3
+                },
+                "Web": {
+                    "start": 6,
+                    "length": 3
+                },
+                "Illustration": {
+                    "start": 9,
+                    "length": 3
+                }
+            }
+        },
+
+        "plugins-instances": {
+            "xtd_hover_fx": {
+                "contentswapporfolioarchive": {
+                    "effectType": "",
+                    "contentType": "overlay",
+                    "overflowEnabled": "false",
+                    "effectDelay": "800",
+                    "effectEasing": "Ease",
+                    "overlayColor": "490A3D",
+                    "innerColor": "ffffff",
+                    "openPage": "same",
+                    "name": "",
+                    "captionType": "490A3D",
+                    "operationType": "edit",
+                    "hasls": "true",
+                    "additionalWrapperClasses": "",
+                    "direction": "bottom",
+                    "useSameTemplate": "true"
+                }
+            }
+        }
+    },
+
+
+    "Team": {
+        "name": "Team",
+        "singular": "Member",
+        "archive": "true",
+        "fields": {
+            "Thumb Image": "image",
+            "Large Image": "image",
+            "Team member position": "text",
+            "Facebook page": "link",
+            "Twitter page": "link",
+            "LinkedIn page": "link",
+            "Email": "email"
+        },
+        "slug": "team",
+        "icon": "\/wp-content\/mu-plugins\/cloudpress_applications\/defaults\/team-icon.png",
+        "enabled": true,
+        "has-detail": true,
+        "tags": "HTML5,CSS3,jQuery,MVC,OOP",
+        "contents": {
+            "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><!--more--><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>",
+            "Thumb Image": "@@SITE_URL@@/wp-content/mu-plugins/cloudpress_applications/defaults/team/assets/thumb-@@INDEX@@.jpg",
+            "Large Image": "@@SITE_URL@@/wp-content/mu-plugins/cloudpress_applications/defaults/team/assets/large-@@INDEX@@.jpg",
+            "Name": "John Doe",
+            "Team member position": "CEO @ COMPANY",
+            "Email": "admin@domain.com"
+        }
+    },
+    "Clients": {
+        "name": "Clients",
+        "singular": "Client",
+        "archive": "true",
+        "fields": {
+            "Company Link": "link",
+            "Company Image": "image"
+        },
+        "slug": "clients",
+        "icon": "\/wp-content\/mu-plugins\/cloudpress_applications\/defaults\/clients-icon.png",
+        "enabled": true,
+        "has-detail": false,
+        "contents": {
+            "nr_of_items": 10,
+            "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "Company Image": "@@SITE_URL@@/wp-content/mu-plugins/cloudpress_applications/defaults/clients/assets/client-@@INDEX@@.png"
+
+        }
+    },
+    "Testimonials": {
+        "name": "Testimonials",
+        "singular": "Testimonial",
+        "archive": "true",
+        "fields": {
+            "Client Company": "text",
+            "Image": "image"
+        },
+        "slug": "testimonials",
+        "icon": "\/wp-content\/mu-plugins\/cloudpress_applications\/defaults\/testimonials-icon.png",
+        "enabled": true,
+        "has-detail": false,
+        "contents": {
+            "post_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+            "post_titles": ["John Doe", "John Doe", "John Doe", "John Doe", "John Doe", "John Doe"],
+            "Company Image": "@@SITE_URL@@/wp-content/uploads/2015/06/client-@@INDEX@@.png",
+            "Image": "@@SITE_URL@@/wp-content/uploads/2015/07/staff-@@INDEX@@.jpg",
+            "Client Company": "CEO @ COMPANY"
+        }
+    }
+
+}

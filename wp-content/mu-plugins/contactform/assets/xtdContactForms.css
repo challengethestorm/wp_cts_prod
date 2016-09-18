@@ -1,0 +1,566 @@
+.contactForm-base button,
+.contactForm-base input,
+.contactForm-base select,
+.contactForm-base textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+.contactForm-base button,
+.contactForm-base select {
+    text-transform: none;
+}
+.contactForm-base button,
+.contactForm-base html input[type="button"],
+.contactForm-base input[type="reset"],
+.contactForm-base input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    filter:chroma(color=#000000);
+}
+.contactForm-base button::-moz-focus-inner,
+.contactForm-base input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.contactForm-base textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+.contactForm-base input,
+.contactForm-base button,
+.contactForm-base select,
+.contactForm-base textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.contactForm-base label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.contactForm-base {
+    font-family:'Arial','Helvetica',sans-serif;
+}
+
+.contactForm-base .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+}
+.contactForm-base .form-group .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+.contactForm-base .form-control:-moz-placeholder {
+    color: #999999;
+}
+.contactForm-base .form-control::-moz-placeholder {
+    color: #999999;
+    opacity: 1;
+}
+.contactForm-base .form-control:-ms-input-placeholder {
+    color: #999999;
+}
+.contactForm-base .form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+.contactForm-base textarea.form-control {
+    
+    height: 100px;
+    resize: none;
+}
+.contactForm-base .form-group {
+    margin-bottom: 15px;
+    min-height: 40px
+}
+
+.contactForm-base.fixed-width{
+    max-width:330px;
+}
+
+.contactForm-base.left-labels.fixed-width{
+    max-width:520px;
+}
+
+
+.contactForm-base button,
+.contactForm-base html input[type="button"],
+.contactForm-base input[type="reset"],
+.contactForm-base input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+
+.contactForm-base .btn {
+    display: inline-block;
+    padding: 10px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding-left:0;
+    padding-right:0;
+}
+
+.contactForm-base .btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.contactForm-base .btn:hover,
+.contactForm-base .btn:focus {
+    color: #333333;
+    text-decoration: none;
+}
+
+.contactForm-base .btn:active,
+.contactForm-base .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+
+.contactForm-base .btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.contactForm-base .btn-default:hover,
+.contactForm-base .btn-default:focus,
+.contactForm-base .btn-default:active,
+.contactForm-base .btn-default.active,
+.contactForm-base .open .dropdown-toggle.btn-default {
+    color: #333333;
+    background-color: #ebebeb;
+    border-color: #adadad;
+}
+
+.contactForm-base .btn-default:focus{
+    outline: none;
+}
+
+.contactForm-base .btn-default:active,
+.contactForm-base .btn-default.active,
+.contactForm-base .open .dropdown-toggle.btn-default {
+    background-image: none;
+}
+
+.contactForm-base .form-group button[type="submit"] {
+    display:block !important;
+}
+
+.contactForm-base .form-group input.form-control {
+    min-height: 0 !important;
+}
+
+
+.contactForm-base .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.contactForm-base .tooltip {
+    position: absolute;
+    z-index: 1030;
+    display: block;
+    visibility: visible;
+    font-size: 12px;
+    line-height: 1.4;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.contactForm-base .tooltip.in {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.contactForm-base .tooltip.top {
+    margin-top: -3px;
+    padding: 5px 0;
+}
+.contactForm-base .tooltip.right {
+    margin-left: 3px;
+    padding: 0 5px;
+}
+.contactForm-base .tooltip.bottom {
+    margin-top: 3px;
+    padding: 5px 0;
+}
+.contactForm-base .tooltip.left {
+    margin-left: -3px;
+    padding: 0 5px;
+}
+.contactForm-base .tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 4px;
+}
+.contactForm-base .tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.contactForm-base .tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: red;
+}
+.contactForm-base .tooltip.top-left .tooltip-arrow {
+    bottom: 0;
+    left: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: red;
+}
+.contactForm-base .tooltip.top-right .tooltip-arrow {
+    bottom: 0;
+    right: 5px;
+    border-width: 5px 5px 0;
+    border-top-color: red;
+}
+.contactForm-base .tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-width: 5px 5px 5px 0;
+    border-right-color: red;
+}
+.contactForm-base .tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: red;
+}
+.contactForm-base .tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: red;
+}
+.contactForm-base .tooltip.bottom-left .tooltip-arrow {
+    top: 0;
+    left: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: red;
+}
+.contactForm-base .tooltip.bottom-right .tooltip-arrow {
+    top: 0;
+    right: 5px;
+    border-width: 0 5px 5px;
+    border-bottom-color: red;
+}
+
+
+
+
+.contactForm-base .form-group label{
+    padding-right: 20px;
+    margin-right: 12px;
+}
+
+.contactForm-base.left-labels label{
+    margin-top: 14px;
+    width: 140px;
+    float: left;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.contactForm-base.left-labels button[type='submit']{
+    margin-left: 192px;
+}
+
+.contactForm-base.left-labels .required > label{
+    background-position: center right;
+}
+
+.contactForm-base .required > label {
+    background-image: url("req.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.contactForm-base.form-align-left{
+    display: inline-block;
+} 
+
+.contactForm-base.form-align-center{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    width:520px;
+
+} 
+
+.contactForm-base.form-align-right{
+    float:right;
+
+} 
+
+
+.contactForm-base.left-labels.form-align-left{
+    display: inline-block;
+} 
+
+.contactForm-base.left-labels.form-align-center{
+    float:none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 520px;
+} 
+
+.contactForm-base.left-labels.form-align-right{
+    float:right;
+} 
+
+.contactForm-base.user-width input,
+.contactForm-base.user-width textarea{
+    width:100%;
+    float:right;
+    display:inline-block;
+}
+
+
+
+.ui-ios-overlay {
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 99999;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.80);
+    -webkit-transition: all ease-in-out .20s;
+    transition: all ease-in-out .20s;
+
+}
+.ui-ios-overlay .title {
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    position: relative;
+    left: 0;
+    width: 100%;
+}
+.ui-ios-overlay img {
+    display: block;
+    margin: 20% auto 0 auto;
+}
+.ui-ios-overlay .spinner {
+    left: 50% !important;
+    top: 40% !important;
+}
+
+.ios-overlay-show {
+    opacity : 1;
+    transition: opacity 0.75s;
+    -webkit-transition: opacity 0.75s;
+}
+
+.ios-overlay-hide {
+    opacity : 0;
+    transition: opacity 0.75s;
+    -webkit-transition: opacity 0.75s;
+    display: none;
+    z-index: -99999;
+}
+
+.xtd-error-message{
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCE12502,endColorstr=#CCE12502)"; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCE12502,endColorstr=#CCE12502);  
+    zoom: 1;
+    background-color: rgba(225, 37, 2, 0.80);
+}
+
+.xtd-ok-message{
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D1B7CF23,endColorstr=#D1B7CF23)"; 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D1B7CF23,endColorstr=#D1B7CF23);  
+    zoom: 1;
+    background-color: #66CCFF;
+    opacity: 0.8;
+}
+.xtd-notice-message{
+    background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#D14C89FF,endColorstr=#D14C89FF)";
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D14C89FF,endColorstr=#D14C89FF);  
+    zoom: 1;
+    background-color: rgba(76, 137, 255, 0.82);
+}
+
+
+.contactForm-skin01 {
+    font-family: 'Verdana',sans-serif;
+}
+
+.contactForm-skin01 .form-group input{
+    min-height: 45px;
+    min-height: 31px;
+}
+
+
+.contactForm-skin01 .form-group input,
+.contactForm-skin01 .form-group textarea
+{
+    box-shadow: none;
+    background: #fafafa;
+    border:1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 11px 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contactForm-skin01 .form-group label{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+.contactForm-skin01 .form-group select,
+.contactForm-skin01 .form-group button[type='submit']{
+    background-color: #2693FF;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight:bold;
+    border:none;
+    padding:14px 30px;
+}
+
+.contactForm-skin01 .form-group select:hover,
+.contactForm-skin01 .form-group button[type='submit']:hover{
+    background-color: #0067CE;
+}
+
+.contactForm-skin01 .form-group input[placeholder],
+.contactForm-skin01 .form-group textarea[placeholder]{
+    font-size: 12px;
+
+}
+
+.contactForm-skin01 .form-group button[type="reset"]{
+    font-size: 12px;
+}
+
+
+.contactForm-skin01 .form-group select{
+    border-radius: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 9px 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    color: rgba(0,0,0,.7);
+    background-image: -moz-linear-gradient( 90deg, rgb(212,212,212) 0%, rgb(244,244,244) 65%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(212,212,212) 0%, rgb(244,244,244) 65%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(212,212,212) 0%, rgb(244,244,244) 65%, rgb(255,255,255) 100%);
+}
+
+.contactForm-skin01 .form-group option{
+    background-color: #ffffff ;
+    padding: 5px 10px;
+}
+
+.contactForm-skin01 .form-group input,
+.contactForm-skin01 .form-group textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.contactForm-skin01 .form-group.required .invalid {
+    border-bottom: 1px solid #ff4800;
+
+}
+
+
+
+
+ .form-group {
+    margin-bottom:15px;
+}
+ .form-group label {
+    font-size:15px!important;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ .form-group input.form-control,  .form-group textarea.form-control {
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100%;
+}
+{
+    width:100%;
+    max-width:500px;
+}
+
+.left-labels.contactForm-base label{
+    width:150px;
+}
+.left-labels.contactForm-base .control-holder{
+    margin-left:202px;
+    display:inline-block; 
+}
+.left-labels.contactForm-base .form-group button{
+    margin-left:202px;
+}
+.left-labels.contactForm-base .control-holder input,
+.left-labels.contactForm-base .control-holder textarea{
+    margin-left:-202px;
+}
+.left-labels .btn{
+    margin-left:202px!important;
+}

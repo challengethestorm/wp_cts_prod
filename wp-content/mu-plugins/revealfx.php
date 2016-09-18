@@ -1,0 +1,1 @@
+<?php require WPMU_PLUGIN_DIR.'/xtdrevealfx/revealfx.php';

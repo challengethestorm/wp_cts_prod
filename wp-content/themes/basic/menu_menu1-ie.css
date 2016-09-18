@@ -1,0 +1,7 @@
+/* lte IE 9 style*/
+#menu_menu1 select {
+	-pie-background: rgba(255, 255, 255, 0.3);
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

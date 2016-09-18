@@ -1,0 +1,503 @@
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+ .xtd-body-fix {
+    overflow:hidden;
+ }
+
+ .@instanceName {
+    box-sizing: content-box;
+ }
+
+  .@instanceName * {
+    box-sizing: content-box;
+ }
+
+ .@instanceName .fancybox-outer-wrapper{
+    width:0;
+    height:0;
+    box-sizing: content-b;
+ }
+
+
+.xtd-mobile-caption-title{
+    color: rgba(255,255,255,0.84);
+}
+
+.xtd-mobile-caption-number{
+    margin-left: 10px;
+    rgba(255,255,255,0.4);
+}
+
+
+
+#xtd-mobile-close-button {
+    cursor: pointer;
+    display: block;
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+      background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    z-index: 50000;
+      background-image: url("skin05_assets/fancy_close.png");
+}
+
+
+
+a.xtdLightbox img {
+    border:none;
+}
+
+.@instanceName  #fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1101;
+    outline: none;
+    display: none;
+    margin-top:20px;
+}
+
+
+.@instanceName  #fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101;
+}
+
+
+.@instanceName  #fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    background: #fff;
+}
+
+
+.@instanceName  .fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+
+
+.xtd-hide{
+    display:none;
+}
+
+
+.@instanceName #fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url('skin05_assets/fancybox.png');
+}
+
+.@instanceName #fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+
+.@instanceName #fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+
+.@instanceName #fancybox-effects {
+    top: 0;
+    position: absolute;
+    z-index: 99999;
+}
+
+.@instanceName #fancybox-outer {
+    background-color: rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 0px 50px rgba(255,255,255,0.1), 0px 0px 15px rgba(0,0,0,0.6) inset;
+    -webkit-box-shadow:0px 0px 50px rgba(255,255,255,0.1), 0px 0px 15px rgba(0,0,0,0.6) inset;
+    box-shadow:0px 0px 50px rgba(255,255,255,0.1), 0px 0px 15px rgba(0,0,0,0.6) inset;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.@instanceName #fancybox-content {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+
+
+}
+
+.@instanceName #fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0;
+}
+
+.@instanceName #fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+    border: none;
+}
+
+.@instanceName #fancybox-close {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+    -moz-transition:background 0.5s;
+    -webkit-transition:background 0.5s;
+    -o-transition:background 0.5s;
+    transition:background 0.5s;
+    background: transparent url('skin05_assets/close_button_placeholder.png') no-repeat top right;
+
+}
+
+.@instanceName #fancybox-close.hover{
+    background: transparent url('skin05_assets/close_button.png') no-repeat top right;
+} 
+
+.@instanceName #fancybox-close,
+.@instanceName #fancybox-close:hover{
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+}
+
+
+.@instanceName #fancybox-left, .@instanceName #fancybox-right {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    width: 35%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url('skin05_assets/blank.gif');
+    z-index: 1102;
+    display: none;
+}
+
+.@instanceName #fancybox-left {
+    left: 0px;
+}
+
+.@instanceName #fancybox-right {
+    right: 0px;
+}
+
+.@instanceName #fancybox-left-ico, .@instanceName #fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+
+.@instanceName #fancybox-left-ico {
+    background-image: url('skin05_assets/fancybox.png');
+    background-position: -40px -30px;
+}
+
+.@instanceName #fancybox-right-ico {
+    background-image: url('skin05_assets/fancybox.png');
+    background-position: -40px -60px;
+}
+
+.@instanceName #fancybox-left:hover, .@instanceName #fancybox-right:hover {
+    visibility: visible; /* IE6 */
+}
+
+.@instanceName #fancybox-left:hover span {
+    left: 20px;
+}
+
+.@instanceName #fancybox-right:hover span {
+    left: auto;
+    right: 20px;
+}
+
+.@instanceName #fancybox-title {
+    font-family: 'Open Sans','Helvetica','Arial', sans-serif;
+    font-size: 14px;
+    z-index: 1101;
+    font-weight: normal;
+}
+
+.@instanceName .fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative;
+}
+
+.@instanceName .fancybox-title-outside {
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #A39C9B;
+    background:transparent;
+}
+
+.@instanceName .fancybox-title-outside:after{
+    /*border: 1px solid #ccc;*/
+    content: '';
+    width: 100%;
+    left:0;
+    position: absolute;
+    height: 42px;
+    background: url("skin05_assets/wrap_shadow.png") no-repeat center;
+    background-size: 97%;
+}
+
+.@instanceName .fancybox-title-over {
+
+    text-align: left;
+
+}
+
+.@instanceName #fancybox-title-over {
+    display: block;
+    height: 74px;
+}
+
+.@instanceName .fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px;
+}
+
+.@instanceName #fancybox-title-float-wrap {
+    font-family: 'Open Sans','Helvetica','Arial', sans-serif;
+    border: none;
+    border-collapse: collapse;
+    width: auto;
+}
+
+.@instanceName #fancybox-title-float-wrap td {
+    border: none;
+    white-space: nowrap;
+}
+
+.@instanceName #fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url('skin05_assets/fancybox.png') -40px -90px no-repeat;
+}
+
+.@instanceName #fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url('skin05_assets/fancybox-x.png') 0px -40px;
+}
+
+.@instanceName #fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url('skin05_assets/fancybox.png') -55px -90px no-repeat;
+}
+
+.@instanceName #fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+
+.@instanceName #fancybox-wrap > .@instanceName .lightbox-controls{
+
+    margin-top: 0px;
+
+}
+.@instanceName .lightbox-control-next{
+    right: -28px;
+}
+.@instanceName .lightbox-control-prev{
+    left: -92px;
+}
+
+.@instanceName .lightbox-control-next,
+.@instanceName .lightbox-control-prev{
+    /*margin-top: 20px;*/
+    /*margin-left: 20px;*/
+    -moz-transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+    -o-transition:all 0.5s;
+    transition:all 0.5s;
+    width: 76px;
+    height: 65px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+}
+
+.@instanceName .lightbox-control-next{
+
+    background-image: url("skin05_assets/next-normal.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}   
+
+.@instanceName .lightbox-control-prev{
+
+    background-image: url("skin05_assets/prev-normal.png");
+    background-position: center ;
+    background-repeat: no-repeat;
+
+}
+
+
+.@instanceName .lightbox-control-next:hover{
+    background-image: url("skin05_assets/next-hover.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.@instanceName .lightbox-control-prev:hover{
+    background-image: url("skin05_assets/prev-hover.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.@instanceName .image-title{
+    padding: 29px 10px;
+    text-align: center;
+    margin-left: 32px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.@instanceName .prev-last{
+    margin:0;
+}
+
+
+.@instanceName .lightbox-controls-inner{
+    position: absolute;
+    padding: 16px;
+    z-index: 99999;
+
+    clear: both;
+    width: 100%;
+}
+.@instanceName .lightbox-controls{
+    /*position: absolute;*/
+    /*right: -128px;*/
+}
+
+.@instanceName #image-number{
+    padding-top: 10px;
+    text-align: center;
+    font-size:24px;
+    font-weight: 200;
+}
+
+
+.@instanceName .clearfix{
+    clear: both;
+}
+
+.@instanceName .fancybox-title-outside {
+    -webkit-animation: showCaption 1s  ease;
+    -moz-animation: showCaption 1s ease;
+    -o-animation: showCaption 1s  ease;
+}
+
+@-webkit-keyframes showCaption {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-moz-keyframes showCaption {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-o-keyframes showCaption {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+
+.@instanceName .extend-effect{                              
+
+    -webkit-animation: xtdLightbox-effect-13 0.4s ease;
+    -moz-animation: xtdLightbox-effect-13 0.4s ease;
+    -o-animation: xtdLightbox-effect-13 0.4s ease;
+    animation: xtdLightbox-effect-13 0.4s ease;
+
+}

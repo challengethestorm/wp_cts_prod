@@ -1,0 +1,1 @@
+<?php require WPMU_PLUGIN_DIR.'/simple-custom-post-order/simple-custom-post-order.php';

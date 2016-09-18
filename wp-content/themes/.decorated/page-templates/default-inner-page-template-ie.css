@@ -1,0 +1,241 @@
+/* lte IE 9 style*/
+.team1-post-content {
+	position: relative;
+}
+
+.team1-post-content:hover {
+	position: relative;
+}
+
+.team1-post-content {
+	position: relative;
+}
+
+img.team-image-field2 {
+	border-radius: 50px;
+	position: relative;
+}
+
+a.button-detail1 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button-detail1:active {
+	position: relative;
+}
+
+a.button-detail1 {
+	position: relative;
+}
+
+a.view-archive-page {
+	border-radius: 0px;
+	position: relative;
+}
+
+#ContactForm1_form .form-group button[type="submit"] {
+	border-radius: 3px;
+	position: relative;
+}
+
+#ContactForm1_form .form-group .button.button-default {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button_white3 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button_white3:hover {
+	-pie-background: rgba(255, 255, 255, 0.8);
+	position: relative;
+}
+
+a.button_white3 {
+	position: relative;
+}
+
+img.carousel-client-image1 {
+	border-radius: 500px;
+	position: relative;
+}
+
+img.carousel-client-image1 {
+	border-radius: 100px;
+	position: relative;
+}
+
+span.clients-short-description-field {
+	color: #000000;
+	position: relative;
+}
+
+#carousel2 .owl-prev {
+	border-radius: 0px 4px 4px 0px;
+	position: relative;
+}
+
+#carousel2 .owl-next {
+	border-radius: 4px 0px 0px 4px;
+	position: relative;
+}
+
+.row_68 {
+	border-radius: 0px;
+	position: relative;
+}
+
+img.image6 {
+	border-radius: 500px;
+	position: relative;
+}
+
+a.button_white2 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button_white2:active {
+	position: relative;
+}
+
+a.button_white2 {
+	position: relative;
+}
+
+a.button_white2:hover {
+	-pie-background: rgba(255, 255, 255, 0.8);
+	position: relative;
+}
+
+a.button_white2 {
+	position: relative;
+}
+
+img.image4 {
+	border-radius: 10000px;
+	position: relative;
+}
+
+#slider2 .owl-page span {
+	-pie-background: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	position: relative;
+}
+
+#slider2 .owl-prev {
+	border-radius: 0px 4px 4px 0px;
+	position: relative;
+}
+
+#slider2 .owl-next {
+	border-radius: 4px 0px 0px 4px;
+	position: relative;
+}
+
+a.button_white1 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button_white1:hover {
+	-pie-background: rgba(255, 255, 255, 0.8);
+	position: relative;
+}
+
+a.button_white1 {
+	position: relative;
+}
+
+a.hero_btn2 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.hero_btn1 {
+	border-radius: 100px;
+	position: relative;
+}
+
+#slider1 .owl-page span {
+	-pie-background: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+#slider1 .owl-page.active span {
+	-pie-background: rgba(0, 0, 0, 1);
+	position: relative;
+}
+
+a.social_link_gPlus3 {
+	-pie-background: rgb(51, 51, 51) url("../../../uploads/gPlus_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+a.social_link_twitter3 {
+	-pie-background: rgb(51, 51, 51) url("../../../uploads/twitter_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+a.social_link_fb3 {
+	-pie-background: rgb(51, 51, 51) url("../../../uploads/fb_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { img.image6 {
+	border-radius: 200px;
+	position: relative;
+}
+
+img.image5 {
+	border-radius: 200px;
+	position: relative;
+}
+
+}#slider1 .owl-next {
+	border-radius: 4px 0px 0px 4px;
+	position: relative;
+}
+
+#carousel1 .owl-next {
+	border-radius: 4px 0px 0px 4px;
+	position: relative;
+}
+
+#slider1 .owl-prev {
+	border-radius: 0px 4px 4px 0px;
+	position: relative;
+}
+
+#carousel1 .owl-prev {
+	border-radius: 0px 4px 4px 0px;
+	position: relative;
+}
+
+img.carousel-client-image2 {
+	border-radius: 500px;
+	position: relative;
+}
+
+img.carousel-client-image2 {
+	border-radius: 100px;
+	position: relative;
+}
+
+@media only screen and (min-width : 1024px) { img.image6 {
+	border-radius: 500px;
+	position: relative;
+}
+
+img.image5 {
+	border-radius: 200px;
+	position: relative;
+}
+
+}

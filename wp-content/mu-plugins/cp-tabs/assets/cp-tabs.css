@@ -1,0 +1,116 @@
+div.cp-tabs {
+    overflow-x: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.cp-tabs .tab-content {}
+
+.cp-tabs .tab-content .owl-item {
+    user-select: initial;
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+}
+
+.cp-tabs .tab-content .tab-pane {
+    min-height: 300px;
+    background-color: #FFFBFB;
+    padding: 20px;
+}
+
+.cp-tabs .tab-nav {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+
+.cp-tabs .tab-nav .tab-nav-item {
+    min-width: 40px;
+    padding: 12px;
+    display: table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+    background-color: #f1f2f3;
+    cursor: pointer;
+}
+
+.cp-tabs .tab-nav .tab-nav-item.selected {
+    background-color: #FFFBFB;
+    position: relative;
+}
+
+.cp-tabs .tab-nav .navitems-nav {
+    position: absolute;
+    height: 100%;
+    width: 2%;
+    min-width: 29px;
+    top: 0px;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cp-tabs .tab-nav .owl-item .tab-nav-item {
+    float: none;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.cp-tabs .tab-nav .navitems-nav:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.cp-tabs .tab-nav .navitems-nav.prev-navitems {
+    left: 0px;
+    background-image: url("../../../../uploads/2014/11/next-arrow-white.png");
+}
+
+.cp-tabs .tab-nav .navitems-nav.next-navitems {
+    right: 0px;
+    background-image: url("../../../../uploads/2014/11/prev-arrow-white.png");
+}
+
+
+/*IN EDITOR ONLY*/
+
+.cp-tabs .tab-content > .tab-pane {
+    display: none;
+}
+
+.cp-tabs .tab-content > .tab-pane:first-of-type {
+    display: block;
+}
+
+.cp-tabs .tab-nav > .tab-nav-item {
+    float: none;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    .cp-tabs .tab-nav .tab-nav-item {
+        min-width: 80px;
+    }
+    /*IN EDITOR ONLY*/
+    .cp-tabs .tab-nav > .tab-nav-item {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cp-tabs .tab-nav .tab-nav-item {
+        min-width: 120px;
+    }
+    /*IN EDITOR ONLY*/
+    .cp-tabs .tab-nav > .tab-nav-item {
+        width: 20%;
+        float: left;
+    }
+}

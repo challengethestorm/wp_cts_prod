@@ -1,0 +1,310 @@
+.content {
+    margin-top: 0px;
+}
+
+.tsa-row_14 {
+    clear: both;
+    min-height: 100px;
+    background: url("../../../uploads/2015/07/bkg-4.jpg") center bottom / cover no-repeat fixed transparent;
+}
+
+.tsa-column_5 {
+    width: 100%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 15px;
+}
+
+h1.tsa-heading2 {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.align-inline-wrap2 {
+    text-align: center;
+}
+
+.tsa-customClass2 {
+    width: 70px;
+}
+
+p.tsa-paragraph1 {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    text-align: center;
+    font-size: 15px;
+}
+
+.content_column {
+    width: 100%;
+    min-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-post-list {
+    clear: both;
+    width: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.custom-post {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    transition: all 0.4s linear 0s;
+}
+
+.custom-post:hover {
+    background-color: #f2f3f4;
+}
+
+.custom-post-list .custom-post .testimonials-content-inner p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.tsa-align-inline-wrap1 {
+    text-align: center;
+}
+
+img.tsa-image1 {
+    border-radius: 100px;
+}
+
+h3.tsa-heading3 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+p.tsa-paragraph3 {
+    text-align: center;
+    margin-top: 0px;
+    color: #9BCB43;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+a.next-page-link {
+    display: inline-block;
+    color: #777777;
+    text-transform: uppercase;
+    background-color: #f2f3f4;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+
+a.prev-page-link {
+    display: inline-block;
+    color: #777777;
+    text-transform: uppercase;
+    background-color: #f2f3f4;
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+ .navigation {
+    clear: both;
+    margin-bottom: 3%;
+}
+.navigation .prev-navigation {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    min-height: 20px;
+    text-align:left;
+}
+a.next-page-link {
+    display: inline-block;
+    color: #333333;
+    text-transform: uppercase;
+    background-color: #f2f3f4;
+    padding: 7px 15px;
+    border-radius: 0px;
+    transition:all 0.4s linear 0s;
+    letter-spacing:2px;
+}
+a.next-page-link:hover {
+    background-color: #9bcb43;
+    color:#ffffff;
+}
+.navigation .numbers-navigation {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    min-height: 20px;
+}
+.numbers-navigation span {
+    vertical-align: middle;
+}
+.numbers-navigation span.current {
+    display: inline-block;
+    padding:7px 15px;
+    background-color:#f5f7f9;
+    color:#333333;
+    font-weight:700;
+    font-family:Lato, sans-serif;
+    transition:all 0.4s linear 0s;
+}
+.numbers-navigation span.current:hover {
+    background-color: #9bcb43;
+    color:#ffffff;
+}
+.numbers-navigation a {
+    vertical-align: middle;
+}
+a.page-numbers:hover {
+    background-color: #9bcb43;
+    color:#ffffff;
+}
+.numbers-navigation a.page-numbers {
+    display: inline-block;
+    padding:7px 15px;
+    color:#333333;
+    font-weight:700;
+    font-family:Lato, sans-serif;
+    transition:all 0.4s linear 0s;
+}
+.navigation .next-navigation {
+    display: inline-block;
+    width: 33%;
+    text-align: right;
+    min-height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tsa-row_14 {
+        clear: both;
+        min-height: 100px;
+    }
+    .tsa-column_5 {
+        min-height: 100px;
+        width: 90%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1.tsa-heading2 {
+        font-size: 46px;
+    }
+    p.tsa-paragraph1 {
+        font-size: 19px;
+    }
+    .content_column {
+        min-height: 700px;
+        width: 90%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custom-post-list {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .custom-post {
+        float: left;
+        width: 50%;
+        min-height: 580px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-right-width: 1px;
+        border-right-style: solid;
+        transition: all 0.4s linear 0s;
+    }
+    .custom-post-list .custom-post .testimonials-content-inner p {
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+       .navigation .prev-navigation {
+        width: 33.3%;
+        text-align:left;
+    }
+    .navigation .numbers-navigation {
+        width: 33.3%;
+    }
+    .navigation .next-navigation {
+        width: 33.3%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tsa-row_14 {
+        clear: both;
+        min-height: 100px;
+    }
+    .tsa-column_5 {
+        float: none;
+        width: 80%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1232px;
+    }
+    h1.tsa-heading2 {
+        font-size: 56px;
+    }
+    p.tsa-paragraph1 {
+        font-size: 19px;
+    }
+    .content_column {
+        float: none;
+        width: 80%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1232px;
+    }
+    .custom-post-list {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .custom-post {
+        float: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-right-width: 1px;
+        border-right-style: solid;
+        transition: all 0.4s linear 0s;
+        width: 33.33%;
+        min-height: 580px;
+    }
+    .custom-post-list .custom-post .testimonials-content-inner p {
+        font-size: 19px;
+        letter-spacing: 0px;
+    }
+    .navigation .prev-navigation {
+        width: 33.3%;
+        float: left;
+        text-align:left;
+    }
+    .navigation .numbers-navigation {
+        width: 33.3%;
+        float: left;
+    }
+    .navigation .next-navigation {
+        width: 33.3%;
+        float: left;
+    }
+}

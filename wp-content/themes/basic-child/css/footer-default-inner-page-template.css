@@ -1,0 +1,5 @@
+#wp_widget0 li a {
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}

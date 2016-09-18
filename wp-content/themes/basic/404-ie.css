@@ -1,0 +1,7 @@
+/* lte IE 9 style*/
+#wp_widget1 .searchform #s {
+	-pie-background: rgb(255, 255, 255) url("../../uploads/2016/02/searchIcon_normalState_blue.png") no-repeat scroll 8px 10px ;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

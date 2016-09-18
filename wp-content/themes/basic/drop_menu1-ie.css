@@ -1,0 +1,106 @@
+/* lte IE 9 style*/
+ul#drop_menu1 > li > a {
+	-pie-background: transparent none repeat-x scroll left center ;
+	position: relative;
+}
+
+ul#drop_menu1 ul li a {
+	-pie-background: transparent none no-repeat scroll left center ;
+	position: relative;
+}
+
+ul#drop_menu1 ul li:hover >a, ul#drop_menu1 ul li.hover >a {
+	-pie-background: rgb(35, 37, 42) none no-repeat scroll left center ;
+	position: relative;
+}
+
+ul#drop_menu1 ul li >a, ul#drop_menu1 ul li.hover >a {
+	position: relative;
+}
+
+ul#drop_menu1 ul li a.sel {
+	-pie-background: rgba(0, 0, 0, 0.0980392) none no-repeat scroll left center ;
+	-pie-background: rgba(0, 0, 0, 0.0980392);
+	position: relative;
+}
+
+.fm2_drop_menu1_mobile-overlay {
+	-pie-background: rgba(0, 0, 0, 0.701961) none repeat scroll left top ;
+	-pie-background: rgba(0, 0, 0, 0.701961);
+	position: relative;
+}
+
+.fm2_drop_menu1_mobile-overlay-hide {
+	-pie-background: rgba(0, 0, 0, 0) none repeat scroll left top ;
+	-pie-background: rgba(0, 0, 0, 0);
+	position: relative;
+}
+
+a#fm2_drop_menu1_mobile_button {
+	border-radius: 4px;
+}
+
+a#fm2_drop_menu1_mobile_button span.caption {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_menu.png") no-repeat scroll 0px center ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.main-menu-header {
+	-pie-background: rgb(65, 65, 65) url("../../mu-plugins/xtddropdownmenu/assets/default/close_icon.png") no-repeat scroll center center ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.main-menu-header p span.caption:before {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_menu.png") no-repeat scroll -2px 50% ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-header {
+	-pie-background: rgb(0, 0, 0) none repeat scroll left top ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-header >a {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow_large.png") no-repeat scroll center center ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+	-pie-background: transparent none repeat scroll left top ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a {
+	-pie-background: transparent none repeat scroll left top ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf:before {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_circle.png") no-repeat scroll left top ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow.png") no-repeat scroll left top ;
+	position: relative;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-container >.main-menu:before {
+	-pie-background: rgb(0, 191, 255) none repeat scroll left top ;
+	position: relative;
+}
+
+a#fm2_drop_menu1_mobile_button {
+	border-radius: 0px;
+}
+
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+	-pie-background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow.png") no-repeat scroll left top ;
+	position: relative;
+}
+
+ul#drop_menu1 > li ul {
+	border-radius: 0px;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

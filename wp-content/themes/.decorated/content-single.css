@@ -1,0 +1,234 @@
+/* GRID BASED ([{"device":"mobile","options":{"gutter":"15","columns":12,"width":"100%"}},{"device":"tablet","options":{"gutter":"15","columns":12,"width":"90%"}},{"device":"desktop","options":{"gutter":"15","columns":12,"width":"80%","maxWidth":"1232px"}}]) */
+ .post-item {
+    padding:3% 15px 7% 15px;
+}
+.post-content {
+    min-height: 222px;
+}
+.post-list {
+    min-height: 100px;
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+}
+.row_post {
+    clear: both;
+    min-height: 100px;
+    margin-right:-15px;
+    margin-left:-15px;
+    border-top:1px solid #F2F3F4;
+    padding-top:10px;
+}
+.comment-form .comment-respond .comment-form p.comment-form-author #author {
+    width: 100%;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    border-color:#DBDBDB;
+}
+.comment-form .comment-respond .comment-form p.comment-form-email #email {
+    width: 100%;
+    border-color:#DBDBDB;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.comment-form .comment-respond .comment-form p.comment-form-url #url {
+    width: 100%;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    border-color:#DBDBDB;
+}
+.comment-form .comment-respond .comment-form p.comment-form-comment #comment {
+    width: 100px;
+    border-color:#DBDBDB;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+}
+.post-content-single div p {
+    margin-top: 20px;
+    margin-bottom:20px;
+    line-height:170%;
+    font-size:17px;
+}
+div.post-content-inner {
+    display: block;
+}
+h1.heading1 {
+    border-bottom: 1px none transparent;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: 400;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    font-family:Lato, sans-serif;
+    margin-top:25px;
+    margin-bottom:45px;
+}
+div .navigation {
+    margin-top: 30px;
+}
+#comments {
+    font-size: 18px;
+    margin-bottom:50px;
+}
+.comments-form {
+    margin-top: 50px;
+}
+.comment-form h3.comment-reply-title {
+    font-size: 18px;
+    font-weight:600;
+}
+.comment-form .comment-respond .comment-form p.comment-form-author label {
+    display: inline-block;
+    margin-bottom:15px;
+    font-size:13px;
+}
+.comment-form .comment-respond .comment-form p.comment-form-email label {
+    display: inline-block;
+    margin-bottom:15px;
+    font-size:13px;
+    margin-top:15px;
+}
+.comment-form .comment-respond .comment-form p.comment-form-url label {
+    display: inline-block;
+    margin-bottom:15px;
+    font-size:13px;
+    margin-top:15px;
+}
+.comment-form .comment-respond .comment-form p.comment-form-comment label {
+    display: inline-block;
+    margin-bottom:15px;
+    font-size:13px;
+    margin-top:15px;
+}
+.comment-form .comment-respond .comment-form p.form-submit #submit:hover {
+    background-color: #0088ff;
+}
+.comment-form .comment-respond .comment-form p.form-submit #submit:focus {
+    background-color: #0077ff;
+}
+.comment-form .comment-respond .comment-form p.form-submit #submit {
+    background-color: #0099ff;
+    padding:16px 20px;
+    text-transform:uppercase;
+    color:#FFFFFF;
+    font-weight:700;
+    -webkit-border-radius:3px;
+    border-color:transparent;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    border-style:none;
+    border-width:0px;
+    font-size:12px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.post-content-inner p span {
+    font-size: 17px;
+}
+@media only screen and (min-width : 768px) {
+    .post-list {
+        width: 75%;
+    }
+    .post-item {
+        width: 75%;
+    }
+    .row_post {
+        clear: both;
+        min-height: 43px;
+        margin-left:-15px;
+    }
+    .row_search {
+        clear: both;
+        min-height: 100px;
+        width: auto;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-comment #comment {
+        width: 883px;
+        height:200px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-url #url {
+        height: 50px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-email #email {
+        height: 50px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-author #author {
+        height: 50px;
+        width:100%;
+    }
+    .comment-form .comment-respond .comment-form p.form-submit #submit {
+        border-width: 0px;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    .post-list {
+        width: 75%;
+    }
+    .post-item {
+        width: 75%;
+        float:left;
+    }
+    .row_post {
+        clear: both;
+        min-height: 43px;
+        margin-left:-15px;
+    }
+    .row_search {
+        clear: both;
+        min-height: 100px;
+        width: auto;
+    }
+    .comment-form .comment-respond .comment-form p.comment-notes {
+        display: none;
+    }
+    .comment-form .comment-respond .comment-form p.form-allowed-tags {
+        display: none;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-author label {
+        display: block;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-email label {
+        display: block;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-url label {
+        display: block;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-comment label {
+        display: block;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-comment #comment {
+        width: 100%;
+        height:200px;
+        border-style:solid;
+        border-width:1px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-url #url {
+        height: 50px;
+        border-style:solid;
+        border-width:1px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-email #email {
+        height: 50px;
+        border-style:solid;
+        border-width:1px;
+    }
+    .comment-form .comment-respond .comment-form p.comment-form-author #author {
+        height: 50px;
+        border-style:solid;
+        border-width:1px;
+        width:100%;
+    }
+    .post-list .navigation {
+        clear: both;
+    }
+    .comment-form .comment-respond .comment-form p.form-submit #submit {
+        border-width:0;
+        border-style:none;
+    }
+}

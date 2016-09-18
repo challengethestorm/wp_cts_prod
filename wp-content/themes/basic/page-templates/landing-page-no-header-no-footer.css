@@ -1,0 +1,218 @@
+    @media only screen and (min-width: 481px) {
+    #mc_form_pop {
+        width: 460px;
+    }
+}
+.content, .row_36_landing_page {
+    background-image: linear-gradient(to bottom, #E0F4FF 0%, #FFFFFF 100%);
+    border-bottom: 1px solid #d9d9d9;
+ /*   background-color: #E0F4FF; */
+}
+.row_23_landing_page {
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #E0F4FF 100%);
+}
+.row_37 {
+    background-color: #f2f3f4;
+}
+.page-content {
+    float: none;
+    min-height: 300px;
+    width: 100%;
+}
+.row_10 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+    background-color:#D9AED9;
+}
+.row_11 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+}
+.row_12 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+    background-color:#E0E0E0;
+}
+.row_13 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+    background-color:#262626;
+}
+.post-content-inner {
+    width:100%;
+    height:100%;
+}
+.post-list {
+    min-height: 100px;
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+.row_29_landing_page {
+    display: block;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: center;
+}
+.row_29_img {
+    width:100%;
+    margin:0 10px;
+}
+.column_24_landing_page {
+    float: none;
+    width: 90%;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1432px;
+}
+.column_25_landingpage {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:2%;
+    text-align:center;
+}
+.column_25_landingpage img {
+    height: auto;
+    width:auto;
+}
+.column_26_landingpage {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    padding:5% 15px 2% 15px;
+    text-align:center;
+}
+a.cta-button-blue {
+    display:inline-block;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 157%;
+    margin: 10px 0;
+    background-color: #66CCFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid #66CCFF;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.4s linear 0s;
+}
+a.cta-button-blue:hover {
+    background-color: #FFFFFF;
+    color: #66CCFF;
+}
+a.go-to-quiz {
+    width: 100%;
+}
+@media only screen and (max-width : 767px) {
+
+  /*  .column_25_landingpage, */
+    #mc-subscribe-rq,
+    .cts-summary > * {
+    display: none !important;   
+    }
+    .large-screen-only {
+    display:none;
+    }
+    
+}
+@media only screen and (min-width : 768px) {
+    .page-content {
+        min-height: 700px;
+        width: 100%;
+    }
+    .row_10 {
+        min-height: 280px;
+    }
+    .row_11 {
+        min-height: 276px;
+    }
+    .row_12 {
+        min-height: 259px;
+    }
+    .row_13 {
+        min-height: 257px;
+    }
+    .post-list {
+        min-height: 700px;
+        width: 100%;
+    }
+    .column_25_landingpage {
+        float: left;
+        width: 45%;
+        min-height: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:2%;
+        text-align:left;
+    }
+    .column_26_landingpage {
+        float: left;
+        width: 55%;
+        min-height: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top:2%;
+        text-align:left;
+    }
+    .row_29_landing_page {
+        text-align: left;
+    }
+    .show-on-small-screen-only {
+        display: none !important;
+    }
+    .cts-summary {
+        max-width:100%;
+    }
+    .row_10 {
+        clear: both;
+        width: auto;
+    }
+    .row_11 {
+        clear: both;
+        width: auto;
+    }
+    .row_12 {
+        clear: both;
+        width: auto;
+    }
+    .row_13 {
+        clear: both;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    .column_25_landingpage {
+        width: 45%;
+    }
+
+}
+@media only screen and (min-width : 1280px) {
+    .row_29_landing_page {
+        display: flex;
+    }
+}
+
+.drop_menu1_menu_wrapper {
+    display: none;
+}
+.show-on-small-screen-only {
+        float: left;
+        width: 100% !important;
+        min-height: 100px;
+        padding:2% 15px 5% 15px;
+        text-align:center;
+}

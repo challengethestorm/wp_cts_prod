@@ -1,0 +1,11 @@
+/* GRID BASED ([{"device":"mobile","options":{"gutter":"15","columns":12,"width":"100%"}},{"device":"tablet","options":{"gutter":"15","columns":12,"width":"90%"}},{"device":"desktop","options":{"gutter":"15","columns":12,"width":"80%","maxWidth":"1232px"}}]) */
+.sidebar {
+    min-height:300px;
+}
+@media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (min-width : 1024px) {
+
+}

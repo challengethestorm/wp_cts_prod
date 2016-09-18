@@ -1,0 +1,515 @@
+/*
+Theme Name: Basic Child
+Description: Child theme off of Basic theme base
+Author: Alex Hanna
+Template: basic
+Version: 1.0.0
+*/
+
+.align-inline-wrap2 {
+	display:flex;
+}
+.prof-image-right {
+	float:right;
+	margin:25px;
+	width:20%;
+}
+.prof-image-right img {
+	border-radius: 15px;
+	-webkit-box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 11px 10px 10px 0px rgba(0,0,0,0.75);
+}
+.width-75 {
+	width:75%;
+}
+.tr-hover-gray:hover {
+	background-color:#eee;
+}
+.resource-table td:first-child {
+	width:30%;
+}
+.open-box {
+    border:2px solid #086a8e; 
+    padding:5px; 
+    cursor:pointer;
+    background-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.open-box:hover {
+    background-color: #ddd;
+}
+.section-h2 {   /*Added this class to use for entire sections, which have h2, but no h1. adds extra padding on top of section*/
+    margin-top: 25px; 
+}
+.row_flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+/*
+ font:150% Arial;
+ color:#808080;
+ font-weight: bolder;
+
+ text-shadow: 0 0px 0 #ccc,
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 0px rgba(0,0,0,.1),
+ 0 0 0px rgba(0,0,0,.1),
+ 0 1px 0px rgba(0,0,0,.3),
+ 0 3px 0px rgba(0,0,0,.2),
+ 0 5px 0px rgba(0,0,0,.25),
+ 0 10px 0px rgba(0,0,0,.2),
+ 0 20px 0px rgba(0,0,0,.15);	
+ 
+}
+*/
+/* ----------------------ROW FOR "SIGN UP FOR FREE"... SECTION ON SINGLE POST PAGES --------------" */
+
+
+
+
+#assessment-1,
+#assessment-2 {
+    background-color: transparent !important;
+    box-shadow: none;
+    padding:0;
+    width: 30%;
+}
+#assessment-1 section,
+#assessment-2 section {
+    float:none;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------START MAILCHIMP SIGNUP FORM STYLE------------------------------*/
+
+
+/*---------------------------------BEGIN SIGN UP BAR SECTION OF CONTENT-SINGLE BLOG PAGE-------------------*/
+
+.row_31 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+    background-color:#66CCFF;
+    margin-bottom:30px;
+    margin-top:-20px;
+}
+.column_29 {
+    width: 100%;
+    min-height: 100px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.row_32 {
+    clear: both;
+    width: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.column_30 {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    color:#FFFFFF;
+    padding:30px 15px 10px 15px;
+    text-align:center;
+}
+.column_30 h4 {
+    color: #FFFFFF;
+    line-height:200%;
+}
+.column_31 {
+/*    float: none;        */
+    width: 100%;
+    min-height: 0px;        /*  was min-height: 100px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:15px;
+    margin-bottom: 0px;
+}
+
+.align-inline-wrap2 {
+    text-align:center;
+}
+@media only screen and (min-width : 768px) {
+    .row_31 {
+    }
+    .column_29 {
+        width: 90%;
+        padding-left:15px;
+        padding-right:15px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .row_32 {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .column_30 {
+/*        float: left;      */
+        width: 100%;
+        min-height: 50px;
+        text-align:center;
+        padding:15px;
+    }
+    .column_31 {
+/*        float: left;    */
+        width: 100%;
+        min-height: 50px;
+        padding:10px 15px 10px 15px; /* was padding:30px 15px 0px 15px; */
+        margin-bottom: 10px;        
+    }
+}
+@media only screen and (min-width : 1024px) {
+    .row_31 {
+        clear: both;
+        width: auto;
+        min-height:100px;
+    }
+    .column_29 {
+        float: none;
+        width: 80%;
+        padding-left:15px;
+        padding-right:15px;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:1232px;
+    }
+    .row_32 {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        align-items: center;
+    }
+    .column_30 {
+/*        float: left;
+        width:66.6667%;     */
+        min-height:100px;
+        text-align:right;
+        padding:15px;
+    }
+    .column_31 {
+/*        float: left;
+        width:33.3333%;
+        padding:30px;     */
+        min-height:100px;
+    }
+}
+
+/*-----------------------------------------END SIGN UP BAR-----------------------------------------*/
+
+/*-----------------------------------------MAILCHIMP FORM DETAILS-----------------------------------------*/
+#mc4wp-form-1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.mc4wp-form-fields {
+    display: flex;
+    justify-content: center;
+}
+.mc-column1 {
+    padding: 1% !important;
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+.mc-column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    float: left;
+}
+/*-----------------------------------------MAILCHIMP FIELDS-----------------------------------------*/
+.mc-column1 label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+}
+.mc-column1 h4 {
+    color: #FFFFFF;
+}
+p.mc-field {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+} 
+p.mc-field-hidden {
+    display:none;
+}
+p.mc-field label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+    display: none;
+    width: 25%;
+    color: #FFF;
+}
+p.mc-field span.chkbox {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+p.mc-field span.chkbox span {
+    vertical-align: middle;
+    display:inline;
+}
+p.mc-field label.mc-label-interest {
+    width: 100%;
+    display: inline-block;
+    float:left;
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+    margin:0;
+}
+p.mc-field input {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    transition:all ease-in-out .4s;
+    padding: 15px 10px 15px 10px;
+    background-color:#FFFFFF;
+    border: solid 2px #CCCCCC;
+    width: 100%;
+    text-transform: uppercase;
+}
+p.mc-field label.mc-label-checkbox {
+    width: auto;
+    display: inline;
+    float:left;
+    font-size: 18px;
+    vertical-align: middle;
+    height:100%;
+}
+p.mc-field input.mc-input-checkbox {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    transition:all ease-in-out .4s;
+    padding: 15px 10px 15px 10px;
+    background-color:#FFFFFF;
+    border: solid 2px #CCCCCC;
+    width: auto;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+    height:100%;
+    vertical-align: middle;
+}
+/*---------------------------------------INTEREST GROUP SECTION CHECKBOXES--------------------------------*/
+.input-group {
+    font-size: 18px;
+    color: #FFF;
+}
+.mc-checkbox-label {
+    color: #FFF;
+}
+.mc-checkbox-input {
+}
+p.mc-field input.button_white1 {
+    border: solid 2px #FFFFFF;
+}
+p.mc-field input.button_white1:hover {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+}
+/*-----------------------------------------MAILCHIMP SUBMIT BUTTON-----------------------------------------*/
+#mc-submit input.mc-button {
+    font-size: 15px;
+    padding: 5% 10%;
+    text-transform:uppercase;
+}
+a.button-blue,
+#mc-submit input.mc-button {
+    background-color: #66CCFF;
+    color: #FFFFFF;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    transition: all 0.4s linear 0s;
+    border: solid 2px #66CCFF;
+}
+a.button-blue:hover,
+#mc-submit input.mc-button:hover {
+    background-color: #FFFFFF;
+    color: #66CCFF;
+    cursor: pointer;
+}
+/*-----------------------------------------MAILCHIMP RESPONSE UPON SUBMISSION-----------------------------------------*/
+.mc4wp-response {
+    color: rgb(208,95,18);
+}
+.mc4wp-alert p,
+.mc4wp-notice p {
+    font-weight: 700 !important;
+}
+
+/*-----------------------------------------BEGIN MC HALF SIGNUP BAR-----------------------------------------*/
+.half-mc-form {
+    width:100%;
+    background-color: #66ccff;
+    padding:10px;
+    -webkit-box-shadow: 10px 10px 35px 0px #93b6c1;
+    -moz-box-shadow: 10px 10px 35px 0px #93b6c1;
+    -ms-box-shadow: 10px 10px 35px 0px #93b6c1;
+    box-shadow: 10px 10px 35px 5px #93b6c1;
+    transition:all 0.3s ease;
+}
+.half-mc-form:hover {
+    width:100%;
+    background-color: #66ccff;
+    padding:10px;
+   -webkit-box-shadow: 10px 10px 35px 0px #a3e0ff;
+   -moz-box-shadow: 10px 10px 35px 0px #a3e0ff;
+   -ms-box-shadow: 10px 10px 35px 0px #a3e0ff;
+    box-shadow: 10px 10px 35px 2px #a3e0ff;
+}
+.left-half {
+    float:left;
+    width: 48%;
+/*    margin: 0.5%; */
+}
+.right-half {
+    float:right;
+    width: 48%;
+    text-align: left;
+/*    margin: 0.5%; */
+}
+.right-half ul {
+    padding: 0 0 0 10px;
+}
+.bottom-full {
+    width: 100%;
+    clear:both;
+    text-align: center;
+ /*   margin: 0.5%; */
+}
+.left-half-label,
+.right-half-label,
+.bottom-full-label,
+.left-half label,
+.right-half label,
+.bottom-full label {
+    margin:0;
+}
+.left-half button,
+.left-half input.button {
+    width:100% !important;
+    font-size: 19px !important;
+}
+.mc-half-chkbox-label {
+    display: inline-block;
+    left:0;
+    color:white;
+    line-height: 100%;
+    margin:0;
+}
+.mc-half-chkbox-input {
+    display: inline-block;
+}
+.chkbox-parent-label {
+    left:0;
+    color:white;
+    font-weight: 600;
+    display: block;
+}
+input.form-control {
+    padding:15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    width:100%;
+    transition: all ease-in-out .15s;
+    background-color: #FFFFFF;
+    border:1px solid #777777;
+    margin-bottom:10px;
+}
+input.form-control:hover {
+    border-color: #66ccff;
+}
+/*------------------------------------------END MC HALF SIGNUP BAR------------------------------------------*/
+/*-----------------------------------------END MAILCHIMP SEGMENT-------------------------------------------*/
+/*-----------------------------------------CUSTOM BUTTONS------------------------------------------*/
+/*REGISTER BUTTON INSIDE OF HEADER SECTION*/
+.button_white1,
+.button_blue1 {
+    display:inline-block;
+    font-size:15px;
+    font-family: Lato,sans-serif;
+    line-height:157%;
+    margin:10px 0;
+    text-decoration:none;
+    padding:15px 30px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    cursor:pointer;
+    text-align:center;
+    transition: all 0.4s linear 0s;
+    font-weight:700;
+}
+.button_white1,
+.button_white1:visited {
+    background-color: #FFFFFF;
+    color:#66CCFF;
+    border:2px solid #FFFFFF;
+}
+.button_blue1,
+.button_blue1:visited {
+    background-color: #66CCFF;
+    color:#FFFFFF;
+    border:2px solid #66CCFF;
+}
+.button_white1:hover,
+a.register-button:hover {
+    color: #FFFFFF;
+    background-color: #66CCFF;
+}
+.button_blue1:hover {
+    color: #66CCFF;
+    background-color: #FFFFFF;
+}
+
+.flex-row {
+    display: flex;
+}
+.flex-col {
+    display:flex !important;
+    flex-direction:column; 
+    align-items:center;
+    flex:1 0 0px;
+    text-align:center
+}
+
+.center-text {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+

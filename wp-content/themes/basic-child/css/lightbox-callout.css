@@ -1,0 +1,296 @@
+/* ----------------------- Fun little callout boxes - Shortcode Ultimate Expand ----------------------------------------------------------------------- */
+.su-program-feature {
+    float:left;
+    margin: 1.5em auto;
+    padding: 0;
+    display: flex;
+    /*flex-flow: row wrap; */
+    justify-content: space-between;
+}
+.su-program-feature__block {
+    width:100%;
+    height:auto;
+}
+.su-program-feature__block * {
+    font-weight:500;
+}
+.su-program-feature__header {
+    text-align: center;
+}
+.su-program-feature ul,
+.suicide-hotline-list ul {
+    list-style-type: circle;
+}
+.su-program-feature li { 
+}
+.su-program-feature__text {
+    margin:0 10px;
+}
+.su-more-cont {
+    text-align:center; 
+    margin:1.5em 0;
+}
+.su-more {
+    border-color:#086a8e; 
+    color:#086a83; 
+    font-weight:700; 
+    font-size:17px
+}
+h1.su-heading2 {
+    text-align: center;
+    font-weight: 400;
+    color: #333333;
+    font-size: 36px;
+}
+.su-align-inline-wrap18 {
+    text-align: center;
+}
+.customClass1 {
+    width: 72px;
+    height: 3px;
+    background-color: #66CCFF;
+    border-style: hidden;
+    border-width: 1px;
+}
+.su-customClass2 {
+    width: 72px;
+    height: 3px;
+    background-color: #66CCFF;
+    border-style: hidden;
+    border-width: 1px;
+    margin:15px 0;
+}
+p.su-paragraph1 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    color: #777777;
+    margin-top: 50px;
+}
+.su-content-inner {
+    font-size: 17px;
+}
+.su-custom-post-list {
+    border-top-style: none;
+    border-top-width:1px;
+    border-bottom:0px solid #EBEBEB;
+    border-left:0px solid #EBEBEB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+ }
+.su-custom-post {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    padding: 0 10px;
+    margin:10px;
+    transition: all 0.4s linear 0s;
+    border-color: #EBEBEB;
+/*    border-bottom: 1px solid #EBEBEB; */
+    -webkit-box-shadow: 5px 5px 15px 5px #93b6c1;
+    -moz-box-shadow: 5px 5px 15px 5px #93b6c1;
+    -ms-box-shadow: 5px 5px 15px 5px #93b6c1;
+    box-shadow: 5px 5px 15px 5px #93b6c1;
+    line-height: 150%;
+}
+.su-separ1 {
+}
+.su-custom-post:hover {
+    background-color: #F7F7F7;
+    padding: 0 10px;
+    transition: all 0.4s linear 0s;
+    -webkit-box-shadow: 5px 5px 15px 5px #a3e0ff;
+    -moz-box-shadow: 5px 5px 15px 5px #a3e0ff;
+    -ms-box-shadow: 5px 5px 15px 5px #a3e0ff;
+    box-shadow: 5px 5px 15px 5px #a3e0ff;
+    cursor: pointer;
+}
+.su-custom-post:hover span.cond-desc {
+    color:#000;
+    transition: all 0.4s linear 0s;
+}
+.su-custom-post:hover a.su-post-permalink {
+    background-color:#FFF;
+    transition: all 0.4s linear 0s;
+}
+img.su-image1,
+img.su-image1-lbox {
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    padding:10px;
+}
+img.su-image1 {
+    cursor: pointer;
+}
+h4.su-heading3 {
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 27px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+h4.su-heading3-sm {
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    word-break: break-word;
+}
+h4.su-heading3 a,
+h4.su-heading3 a:visited {
+    color:#333333;
+    transition: all 0.4s linear 0s;   
+}
+h4.su-heading3 a:hover {
+    color:#66CCFF;
+}
+p.su-paragraph2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #777777;
+    margin-top: 0px;
+}
+span.su-desc {
+}
+.su-align-inline-wrap1 {
+    text-align: center;
+}
+.align-inline-wrap3 {
+    text-align: center;
+}
+a.su-post-permalink {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 157%;
+    margin: 10px 0;
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #086a8e;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+/*    border-width: 0px; */
+    transition: all 0.4s linear 0s;
+    background-color: #f2f3f4;
+    margin: 10px 0 40px 0;
+}
+a.su-post-permalink:hover {
+    background-color: #086a8e !important;
+    color:#ffffff;
+}
+@media only screen and (min-width: 768px) {
+    .su-customClass1 {
+        border-style: hidden;
+    }
+    .su-customClass2 {
+        
+    }
+    .su-custom-post-list {
+/*        border-left-width: 1px; */
+        margin-bottom: 15px;
+    }
+    .su-custom-post {
+        float: left;
+        width: 33%;
+        min-height: 200px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-width: 1px;
+        border-style: solid;
+        transition: all 0.4s linear 0s;
+    }
+    .su-custom-post:hover {
+        transition: all 0.4s linear 0s;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    img.su-image1 {
+        width: auto;
+    }
+    img.su-image1-lbox {
+        width:300px;
+    }
+    h4.su-heading3 {
+        font-size: 17px;
+    }
+    h4.su-heading3 {
+        font-size: 15px;
+    }
+    p.su-paragraph2 {
+        font-size: 13px;
+    }
+    .su-align-inline-wrap1 {
+        text-align: center;
+    }
+    .su-align-inline-wrap3 {
+        text-align: center;
+    }
+    a.su-post-permalink {
+/*        border-width: 0px; */
+        margin: 10px 0 40px 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .su-customClass2 {
+    }
+    .su-custom-post-list {
+        clear: both;
+        margin-bottom: 30px;
+    }
+    .su-custom-post {
+        float: left;
+        border-width: 1px;
+        border-style: solid;
+        transition: all 0.4s linear 0s;
+        width: 14%;
+        min-height: 200px;
+        margin:10px;
+        padding:0 10px;   
+    }
+    .su-custom-post:hover {
+        transition:all 0.4s linear 0s;
+    }
+    img.su-image1 {
+        width: auto;
+    }
+    img.su-image1-lbox {
+        width: 300px;
+    }
+    h4.su-heading3 {
+        font-size: 22px;
+    }
+    h4.su-heading3-sm {
+        font-size: 17px;
+    }
+    p.su-paragraph2 {
+        font-size: 15px;
+    }
+    .su-align-inline-wrap1 {
+        text-align: center;
+    }
+    .align-inline-wrap3 {
+        text-align: center;
+    }
+    a.su-post-permalink {
+/*        border-width: 0; */
+        margin: 10px 0 40px 0;
+    }
+    .su-expand-link {
+        font-size: 17px;
+    }
+ }

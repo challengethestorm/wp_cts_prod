@@ -1,0 +1,112 @@
+
+ .bq-curate ul, ol {
+    padding-left: 40px;
+}
+
+.bq-curate {
+    position: relative;
+    padding: 10px 25px; /*changed from 0px 20px*/
+    margin: 10px; /*changed from 10px*/
+ /*   clear: both;  */
+    border: none !important;
+    width: auto;
+    quotes:"\201C" "\201D";
+    max-width: 100%;
+}
+@media only screen and (min-width : 768px) {
+    .bq-curate:before, .bq-curate:after {
+        font:bold 45px/1px Times, serif;
+        color:#66ccff;
+        position:absolute;
+        /*clear: both;  */
+/*        left: 0;
+        right: 0;   removed as to include in the before/after statements  */
+    }
+}
+.bq-curate:before {
+    content:open-quote;
+    margin: 22.5px 1px 0 0; /*changed from -10px...changed from 15 0 0 -10*/
+    left: 0;
+    top: 0;
+}
+.bq-curate:after {
+    content:close-quote;
+/*    margin: 0 -10px 0 0; ...changed from 23px 30px 0 ...removed due to right/bottom properties */
+/*    text-align: right; */
+    bottom: 0;
+    right: 0;
+}
+.bq-curate span, 
+.bq-curate span em {
+    word-wrap: normal;
+}
+
+.bq-curate span.talk-transcript__fragment {
+    font-size: 20px !important;
+}
+/*
+.bq-curate {
+    position: relative;
+    padding: 0 20px;
+    margin: 0 0 20px 10px;
+    clear: both;
+    border: none !important;
+    quotes:"\201C" "\201D";
+    width: 450px;
+}
+
+.bq-curate > * {
+    margin-left: 10px;
+}
+
+.bq-curate:before {
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 23px;
+    position: absolute;
+    display: inline-block;
+    background-position: 0 10px;
+    content: open-quote;
+    font:bold 45px/1px Times, serif;
+  //   content: "\201C";
+  //   content: "" ;
+    clear: both;
+    transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    
+}
+
+.bq-curate:after,
+.bq-curate:before {
+ //   background-size: auto 68px;
+ //   background-repeat: no-repeat;
+ //   background-image: url('../images/quote_grey_start.png'); wp_quotes
+}
+
+.bq-curate:after {
+    right: 0;
+    bottom: -13px;
+    width: 12px;
+    height: 23px;
+    text-align: right;
+    position: absolute;
+    display: inline-block;
+    background-position: 0 0;
+    content: close-quote;
+    font:bold 45px/1px Times, serif;
+ //    content: "" ;
+    clear: both;
+    
+}  */
+.expresscurate_FacebookEmbed {
+    display: block;
+    width: 450px;
+    height: 62px;
+    background: url("../images/facebookEmbedPlaceholder.png") #3B5998 no-repeat;
+    background-size: auto 25px;
+    background-position: center center;
+}

@@ -1,0 +1,10 @@
+body {
+	border-radius: 0px;
+}
+
+#fancybox-title{
+	-pie-background: rgba(242,108,78,1);
+	position:relative;
+}
+
+.@instanceName img {-ms-interpolation-mode: bicubic;}

@@ -1,0 +1,19 @@
+[0.0016] Info: WP_Query results written to log
+[0.0014] Registered sizes: ["thumbnail","medium","medium_large","large","shop_thumbnail","shop_catalog","shop_single","wp_rp_thumbnail","rwi-featured-thumb","full"]
+[0.0016] Meta indexed so far: 1 / 237
+[0.0025] Sample meta:
+{"width":5000,"height":5000,"file":"2016\/06\/Brain.jpg","sizes":{"thumbnail":{"file":"Brain-150x150.jpg","width":150,"height":150,"mime-type":"image\/jpeg"},"medium":{"file":"Brain-300x300.jpg","width":300,"height":300,"mime-type":"image\/jpeg"},"medium_large":{"file":"Brain-768x768.jpg","width":768,"height":768,"mime-type":"image\/jpeg"},"large":{"file":"Brain-1024x1024.jpg","width":1024,"height":1024,"mime-type":"image\/jpeg"},"shop_thumbnail":{"file":"Brain-180x180.jpg","width":180,"height":180,"mime-type":"image\/jpeg"},"shop_catalog":{"file":"Brain-300x300.jpg","width":300,"height":300,"mime-type":"image\/jpeg"},"shop_single":{"file":"Brain-600x600.jpg","width":600,"height":600,"mime-type":"image\/jpeg"},"wp_rp_thumbnail":{"file":"Brain-150x150.jpg","width":150,"height":150,"mime-type":"image\/jpeg"},"rwi-featured-thumb":{"file":"Brain-192x192.jpg","width":192,"height":192,"mime-type":"image\/jpeg"}},"image_meta":{"aperture":"0","credit":"","camera":"","caption":"Profile of a human head with a colorful symbol of neurons in the brain","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"Neurons in the Brain","orientation":"1","keywords":["abstract","anatomy","axon","beauty","biology","brain","brainstorming","cells","concept","cyberspace","dendrite","design","disease","energy","glowing","head","health","human","icon","idea","impulse","intellect","medical","medicine","mental","metaphors","micro","mind","nerve","nervous","neurofilament","neurotransmitter","nucleus","organism","people","poster","psychology","receptor","research","science","sensory","shape","sign","silhouette","structure","symbol","symbols","synapse","system","vector","wave"]}}
+[0.0003] Meta indexed so far: 101 / 237
+[0.0003] Meta indexed so far: 201 / 237
+[0.0293] Meta indexed so far: 237 / 237
+[0.0334] Info: Valid and Invalid meta results written to log
+[0.0069] Info: Loaded attachments to memory [54.75 mb]
+[0.0212] Info: 1194 Images found [55.75 mb]
+[0.0469] Info: 349 Invalid images found [55.75 mb]
+[0.0599] Info: Retrieved attachment images from DB [55 mb]
+[0.0996] Info: Backup meta results written to log [55 mb]
+[0.0018] Posts checked for used images 1/13
+[0.0359] Info: Invalid post image meta results written to log
+Warning: skipping script index because of too many image files
+[1.1960] Info: Invalid referenced image meta results written to log
+[1.1994] Info: Unreferenced image file results written to log

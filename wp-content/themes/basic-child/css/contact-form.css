@@ -1,0 +1,91 @@
+#ContactForm1,
+#ContactForm2 {
+    width:100%;
+    padding-top:5px;
+}
+#ContactForm1_form,
+#ContactForm2_form {
+    width:100%;
+    margin-top:0em;
+    margin-bottom:0em;
+}
+#ContactForm1_form .form-group
+#ContactForm2_form .form-group {
+    margin-bottom:5%;
+    text-align:center;
+}
+#ContactForm1_form .form-group label,
+#ContactForm2_form .form-group label {
+    font-size:15px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+}
+#ContactForm1_form .form-group input.form-control,
+#ContactForm2_form .form-group input.form-control {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    width:100%;
+    transition:all ease-in-out .15s;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#FFFFFF;
+    border-color:#777777;
+}
+#ContactForm1_form .form-group input.form-control:hover,
+#ContactForm2_form .form-group input.form-control:hover {
+    border-color: #66CCFF;
+}
+#ContactForm1_form .form-group textarea.form-control,
+#ContactForm2_form .form-group textarea.form-control {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    width:100%;
+    transition:all ease-in-out .15s;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#FFFFFF;
+    color:#555555;
+    border-color:#777777;
+}
+#ContactForm1_form .form-group button[type="submit"],
+#ContactForm2_form .form-group button[type="submit"] {
+    width:122px;
+    display:block;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Open Sans, sans-serif;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#ContactForm1_form .form-group .button.button-default,
+#ContactForm2_form .form-group .button.button-default {
+    height:auto;
+    width:auto;
+    color:#FFF;
+    background-color:#66CCFF;
+    font-weight:400;
+    font-family:Lato, sans-serif;
+    font-size:15px;
+    text-align:center;
+    padding-top:10px;
+    border-radius:100px;
+    border: 2px solid #66CCFF;
+    padding-bottom:10px;
+    margin:10px auto;
+    transition:all 0.4s linear 0s;
+}
+#ContactForm1_form .form-group .button.button-default:hover,
+#ContactForm2_form .form-group .button.button-default:hover {
+    height:auto;
+    background-color:#FFFFFF;
+    color: #66CCFF;
+    border: 2px solid #66CCFF;
+}
+#ContactForm1_form .form-group .button.button-default:active,
+#ContactForm2_form .form-group .button.button-default:active {
+    height:auto;
+}

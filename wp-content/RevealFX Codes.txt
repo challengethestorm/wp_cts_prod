@@ -1,0 +1,93 @@
+FROM RIGHT
+
+Effect	#	HTML	Direction
+RevealFX1	1	<p reveal-fx='RevealFX1'>RevealFX1</p>	from right
+RevealFX3	3	<p reveal-fx='RevealFX3'>RevealFX3</p>	from right
+RevealFX5	5	<p reveal-fx='RevealFX5'>RevealFX5</p>	from right
+RevealFX8	8	<p reveal-fx='RevealFX8'>RevealFX8</p>	from right - before 9
+RevealFX9	9	<p reveal-fx='RevealFX9'>RevealFX9</p>	from right - before 10
+RevealFX11	11	<p reveal-fx='RevealFX11'>RevealFX11</p>	from right
+RevealFX35	35	<p reveal-fx='RevealFX35'>RevealFX35</p>	from right
+RevealFX37	37	<p reveal-fx='RevealFX37'>RevealFX37</p>	from right
+RevealFX40	40	<p reveal-fx='RevealFX40'>RevealFX40</p>	from right
+RevealFX120	120	<p reveal-fx='RevealFX120'>RevealFX120</p>	from right
+RevealFX121	121	<p reveal-fx='RevealFX121'>RevealFX121</p>	from right
+RevealFX122	122	<p reveal-fx='RevealFX122'>RevealFX122</p>	from right
+RevealFX123	123	<p reveal-fx='RevealFX123'>RevealFX123</p>	from right
+RevealFX131	131	<p reveal-fx='RevealFX131'>RevealFX131</p>	from right
+RevealFX132	132	<p reveal-fx='RevealFX132'>RevealFX132</p>	from right
+RevealFX133	133	<p reveal-fx='RevealFX133'>RevealFX133</p>	from right
+
+
+FROM LEFT
+
+Effect	#	HTML	Direction
+RevealFX4	4	<p reveal-fx='RevealFX4'>RevealFX4</p>	from left
+RevealFX6	6	<p reveal-fx='RevealFX6'>RevealFX6</p>	from left
+RevealFX10	10	<p reveal-fx='RevealFX10'>RevealFX10</p>	from left
+RevealFX34	34	<p reveal-fx='RevealFX34'>RevealFX34</p>	from left
+RevealFX36	36	<p reveal-fx='RevealFX36'>RevealFX36</p>	from left
+RevealFX39	39	<p reveal-fx='RevealFX39'>RevealFX39</p>	from left
+RevealFX116	116	<p reveal-fx='RevealFX116'>RevealFX116</p>	from left
+RevealFX117	117	<p reveal-fx='RevealFX117'>RevealFX117</p>	from left
+RevealFX118	118	<p reveal-fx='RevealFX118'>RevealFX118</p>	from left
+
+
+FROM BOTTOM
+
+Effect	#	HTML	Direction
+RevealFX2	2	<p reveal-fx='RevealFX2'>RevealFX2</p>	from bottom
+RevealFX12	12	<p reveal-fx='RevealFX12'>RevealFX12</p>	from bottom
+RevealFX13	13	<p reveal-fx='RevealFX13'>RevealFX13</p>	from bottom
+RevealFX14	14	<p reveal-fx='RevealFX14'>RevealFX14</p>	from bottom
+RevealFX15	15	<p reveal-fx='RevealFX15'>RevealFX15</p>	from bottom
+RevealFX16	16	<p reveal-fx='RevealFX16'>RevealFX16</p>	from bottom - scoops up and in
+RevealFX17	17	<p reveal-fx='RevealFX17'>RevealFX17</p>	from bottom
+RevealFX18	18	<p reveal-fx='RevealFX18'>RevealFX18</p>	from bottom
+RevealFX19	19	<p reveal-fx='RevealFX19'>RevealFX19</p>	from bottom
+RevealFX20	20	<p reveal-fx='RevealFX20'>RevealFX20</p>	from bottom
+RevealFX21	21	<p reveal-fx='RevealFX21'>RevealFX21</p>	from bottom
+RevealFX22	22	<p reveal-fx='RevealFX22'>RevealFX22</p>	from bottom
+RevealFX23	23	<p reveal-fx='RevealFX23'>RevealFX23</p>	from bottom
+RevealFX24	24	<p reveal-fx='RevealFX24'>RevealFX24</p>	from bottom
+RevealFX25	25	<p reveal-fx='RevealFX25'>RevealFX25</p>	from bottom
+RevealFX26	26	<p reveal-fx='RevealFX26'>RevealFX26</p>	from bottom
+RevealFX27	27	<p reveal-fx='RevealFX27'>RevealFX27</p>	from bottom
+RevealFX28	28	<p reveal-fx='RevealFX28'>RevealFX28</p>	from bottom
+RevealFX29	29	<p reveal-fx='RevealFX29'>RevealFX29</p>	from bottom
+RevealFX30	30	<p reveal-fx='RevealFX30'>RevealFX30</p>	from bottom
+RevealFX31	31	<p reveal-fx='RevealFX31'>RevealFX31</p>	from bottom
+RevealFX32	32	<p reveal-fx='RevealFX32'>RevealFX32</p>	from bottom
+RevealFX33	33	<p reveal-fx='RevealFX33'>RevealFX33</p>	from bottom
+RevealFX38	38	<p reveal-fx='RevealFX38'>RevealFX38</p>	from bottom
+RevealFX105	105	<p reveal-fx='RevealFX105'>RevealFX105</p>	from bottom
+RevealFX106	106	<p reveal-fx='RevealFX106'>RevealFX106</p>	from bottom
+RevealFX107	107	<p reveal-fx='RevealFX107'>RevealFX107</p>	from bottom
+RevealFX108	108	<p reveal-fx='RevealFX108'>RevealFX108</p>	from bottom
+RevealFX109	109	<p reveal-fx='RevealFX109'>RevealFX109</p>	from bottom
+RevealFX110	110	<p reveal-fx='RevealFX110'>RevealFX110</p>	from bottom
+RevealFX119	119	<p reveal-fx='RevealFX119'>RevealFX119</p>	from bottom
+RevealFX124	124	<p reveal-fx='RevealFX124'>RevealFX124</p>	from bottom
+RevealFX125	125	<p reveal-fx='RevealFX125'>RevealFX125</p>	from bottom
+RevealFX126	126	<p reveal-fx='RevealFX126'>RevealFX126</p>	from bottom
+RevealFX134	134	<p reveal-fx='RevealFX134'>RevealFX134</p>	from bottom
+RevealFX135	135	<p reveal-fx='RevealFX135'>RevealFX135</p>	from bottom
+RevealFX136	136	<p reveal-fx='RevealFX136'>RevealFX136</p>	from bottom
+
+
+NO MOVEMENT - JUST APPEARS
+
+Effect	#	HTML	Direction
+RevealFX7	7	<p reveal-fx='RevealFX7'>RevealFX7</p>	no movement, apppears
+RevealFX101	101	<p reveal-fx='RevealFX101'>RevealFX101</p>	no movement, appears before 102
+RevealFX102	102	<p reveal-fx='RevealFX102'>RevealFX102</p>	no movement, appears before 103
+RevealFX103	103	<p reveal-fx='RevealFX103'>RevealFX103</p>	no movement, appears before 104
+RevealFX104	104	<p reveal-fx='RevealFX104'>RevealFX104</p>	no movement, apppears
+RevealFX111	111	<p reveal-fx='RevealFX111'>RevealFX111</p>	no movement, apppears
+RevealFX112	112	<p reveal-fx='RevealFX112'>RevealFX112</p>	no movement, apppears
+RevealFX113	113	<p reveal-fx='RevealFX113'>RevealFX113</p>	no movement, apppears
+RevealFX114	114	<p reveal-fx='RevealFX114'>RevealFX114</p>	no movement, apppears
+RevealFX115	115	<p reveal-fx='RevealFX115'>RevealFX115</p>	no movement, apppears
+RevealFX127	127	<p reveal-fx='RevealFX127'>RevealFX127</p>	no movement, apppears
+RevealFX137	137	<p reveal-fx='RevealFX137'>RevealFX137</p>	no movement, apppears
+

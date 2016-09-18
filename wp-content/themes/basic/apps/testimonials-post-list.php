@@ -1,0 +1,1 @@
+<h1 class='custom-post-title'><?php echo do_shortcode('[cp_post_meta name="cp_title"]') ?></h1><div class='custom-post-content'><?php echo do_shortcode('[tag_post_content]') ?></div>

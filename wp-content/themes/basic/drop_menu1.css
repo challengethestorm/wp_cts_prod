@@ -1,0 +1,861 @@
+/*************************************************************************************************/
+
+/* I.A. Global resets */
+
+/*************************************************************************************************/
+
+/* I.A.1. Remove list style */
+ ul#drop_menu1, ul#drop_menu1 ul {
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+/* I.A.2. Remove anchor outlines when clicked */
+ ul#drop_menu1 a:active, ul#drop_menu1 a:focus {
+    outline-style: none;
+}
+/* I.A.3. Force block display on lists and list items */
+ ul#drop_menu1 ul {
+    display: block;
+}
+ul#drop_menu1 > li {
+    display: inline-block;
+}
+/* I.A.4. Hide span overflow */
+ ul#drop_menu1 span, ul#drop_menu1 font {
+    /*overflow: hidden;*/
+}
+/* I.A.5. Display and positioning for containers */
+ ul#drop_menu1 {
+    position: relative;
+    display: block;
+    width: auto;
+    text-align: right;
+    font-weight:300;
+    font-family:Open Sans, sans-serif;
+}
+div#drop_menu1_container {
+    border-left: 0px none #2D2D2D;
+    border-top: 0px none #2D2D2D;
+    border-bottom: 0px solid rgb(231, 231, 231);
+    border-right: 0px none #2D2D2D;
+    z-index: 9999;
+    padding: 0;
+    background-image: none;
+    display:inline-block;
+    float:none;
+    vertical-align: top;
+    background-color:transparent;
+}
+div#drop_menu1_container select {
+    display:none;
+}
+div#drop_menu1_container.stick {
+    position: fixed;
+    top: 0;
+}
+*+html ul#drop_menu1 {
+    display: inline;
+}
+ul#drop_menu1 ul {
+    border-left: 1px solid #2d2d2d;
+    border-top: 1px solid #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+    border-right: 1px solid #2d2d2d;
+    position: absolute;
+    z-index: 9999;
+}
+/* I.A.6. Reset margin to 0 for all menu containers */
+ ul#drop_menu1, ul#drop_menu1 ul {
+    margin: 0 0 0 0;
+}
+/* I.A.7. Reset padding to 0 for all menu containers */
+ ul#drop_menu1, ul#drop_menu1 ul {
+    padding: 0 0 0 0;
+}
+/* I.A.8. Display block for all anchors in list items */
+ ul#drop_menu1 a {
+    display: block;
+}
+/* I.A.9. Display block for all spans in list items, also height 100% */
+ ul#drop_menu1 span, ul#drop_menu1 font {
+    display: block;
+}
+/*************************************************************************************************/
+
+/* I.B. Sub-menu visibility */
+
+/*************************************************************************************************/
+
+/* I.B.1. Hide by default all menus of level greater than one */
+ ul#drop_menu1 ul {
+    /*display: none;*/
+}
+ul#drop_menu1 ul ul li {
+    position: relative;
+}
+/* I.B.3. Show submenu when hovering over menu item */
+ ul#drop_menu1 li >ul {
+    display: none;
+}
+/* II.A.2. Offsets for submenus: left, top */
+ ul#drop_menu1 {
+    top: auto;
+    left: auto;
+    display:block;
+    text-align:left;
+}
+/*************************************************************************************************/
+
+/* II.B. Container design */
+
+/*************************************************************************************************/
+
+/* II.B.1. Background (color, image, image repeat, image position) */
+
+/* II.B.2. Border */
+
+/* II.B.3. Explicit container width/height (optional) */
+
+/* II.B.4. Container padding */
+
+/*************************************************************************************************/
+
+/* II.C. Menu item design (default state) */
+
+/*************************************************************************************************/
+
+/* II.C.1. Padding */
+
+/* II.C.2. Border */
+
+/* II.C.3. Background (color, image, image repeat, image position) */
+
+/* II.C.4. Text color */
+
+/* II.C.5. Font size */
+
+/* II.C.6. Font properties (family, weight, style, decoration) */
+
+/* II.C.7. Text align */
+
+/* II.C.8. Cursor */
+
+/* II.C.9. Explicit item width/height, optional */
+ ul#drop_menu1 li a {
+    transition: background 0.5s, color 0.5s;
+    -webkit-transition: background 0.5s, color 0.5s;
+}
+ul#drop_menu1 > li > a {
+    background: transparent none repeat-x left center scroll;
+    border-left: 0px none rgba(0, 0, 0, 0);
+    border-right: 0px none rgba(0, 0, 0, 0);
+    width: auto;
+    height: 100%;
+    margin-bottom: none;
+    margin-right: none;
+    margin-left: none;
+    padding: 27px 15px 0 15px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-top-color:rgba(0, 0, 0, 0);
+    border-bottom-color:rgba(0, 0, 0, 0);
+    border-top-style:none;
+    border-bottom-style:none;
+}
+ul#drop_menu1 > li > a, ul#drop_menu1 > li > a span, ul#drop_menu1 > li > a font {
+    font: normal normal bold 12px/120% Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+/* II.C.10. Menu item spacing */
+ ul#drop_menu1 > li {
+    padding: 0 0px 0px 0px;
+    line-height:100%;
+    height: 70px;
+}
+/*************************************************************************************************/
+
+/* II.D. Menu item design (hover state) */
+
+/*************************************************************************************************/
+
+/* II.D.*. Any of II.C. may be changed but colors should be the most common */
+ ul#drop_menu1 > li:hover > a, ul#drop_menu1 > li.hover > a {
+    background-image: none;
+    background-color:transparent;
+    padding-top:27px;
+    border-top-width:0px;
+    border-top-style:none;
+    border-top-color:transparent;
+    border-right-width:0px;
+    border-right-style:none;
+    border-bottom-width:0px;
+    border-bottom-style:none;
+    border-left-width:0px;
+    border-left-style:none;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+}
+ul#drop_menu1 > li:hover > a, ul#drop_menu1 > li.hover > a, ul#drop_menu1 > li:hover > a span, ul#drop_menu1 > li.hover > a span, ul#drop_menu1 > li:hover > a font, ul#drop_menu1 > li.hover > a font {
+    color: #ffffff;
+    cursor: pointer;
+}
+/*************************************************************************************************/
+
+/* II.E. Has children icon (default state) */
+
+/*************************************************************************************************/
+ ul#drop_menu1 > li > a span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 > li > a span, ul#drop_menu1 > li > a font {
+    padding: 0px 0px 0px 0px;
+}
+/*************************************************************************************************/
+
+/* II.F. Has children icon (hover state) */
+
+/*************************************************************************************************/
+ ul#drop_menu1 > li:hover > a span, ul#drop_menu1 > li.hover >a span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 > li:hover > a span, ul#drop_menu1 > li.hover > a span, ul#drop_menu1 > li:hover > a font, ul#drop_menu1 > li.hover > a font {
+    padding: 0px 0px 0px 0px;
+}
+ul#drop_menu1 > li > a.sel span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 > li > a.sel span, ul#drop_menu1 > li > a.sel font {
+    color: #ffffff;
+    padding: 0px 0px 0px 0px;
+}
+/*************************************************************************************************/
+
+/* III.B. Item customization */
+
+/*************************************************************************************************/
+
+/* III.B.1. Custom default item style */
+ ul#drop_menu1 > li > a.sel {
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: left center;
+    background-image: none;
+    border-top-width:0px;
+    border-top-style:solid;
+    border-top-color:#0099FF;
+    border-bottom-width:0px;
+    border-bottom-style:solid;
+    border-bottom-color:#66CCFF;
+}
+ul#drop_menu1 > li > a.sel, ul#drop_menu1 > li > a.sel span, ul#drop_menu1 > li > a.sel font {
+    cursor: pointer;
+}
+/* II.A.2. Offsets for submenus: left, top */
+ ul#drop_menu1 li >.ui-effects-wrapper {
+    top: 58px;
+    left: 0px;
+}
+ul#drop_menu1 li ul {
+    top: 50px;
+    left: 0px;
+}
+/*************************************************************************************************/
+
+/* II.B. Container design */
+
+/*************************************************************************************************/
+
+/* II.B.1. Background (color, image, image repeat, image position) */
+
+/* II.B.2. Border */
+
+/* II.B.3. Explicit container width/height (optional) */
+ ul#drop_menu1 ul {
+    width: auto;
+    height: auto;
+    background-color: #15bfff;
+    background-image: none;
+}
+/* II.B.4. Container padding */
+ ul#drop_menu1 ul {
+    padding: 7px 0px 7px 0px;
+}
+/*************************************************************************************************/
+
+/* II.C. Menu item design (default state) */
+
+/*************************************************************************************************/
+
+/* II.C.1. Padding */
+
+/* II.C.2. Border */
+
+/* II.C.3. Background (color, image, image repeat, image position) */
+
+/* II.C.4. Text color */
+
+/* II.C.5. Font size */
+
+/* II.C.6. Font properties (family, weight, style, decoration) */
+
+/* II.C.7. Text align */
+
+/* II.C.8. Cursor */
+
+/* II.C.9. Explicit item width/height, optional */
+ ul#drop_menu1 ul li a {
+    background: none left center no-repeat scroll transparent;
+    border-left: 0px none transparent;
+    border-top: 0px none transparent;
+    border-bottom: 0px none transparent;
+    border-right: 0px none transparent;
+    padding: 17px 20px;
+    height: 100%;
+    min-height:0px;
+    letter-spacing: 0px;
+}
+ul#drop_menu1 ul li a, ul#drop_menu1 ul li a span, ul#drop_menu1 ul li a font {
+    font: normal normal bold 11px/120% Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+/*************************************************************************************************/
+
+/* II.D. Menu item design (hover state) */
+
+/*************************************************************************************************/
+
+/* II.D.*. Any of II.C. may be changed but colors should be the most common */
+ ul#drop_menu1 ul li:hover >a, ul#drop_menu1 ul li.hover >a {
+    background: none left center no-repeat scroll #23252a;
+    border-left: 0px none transparent;
+    border-top: 0px none transparent;
+    border-bottom: 0px none transparent;
+    border-right: 0px none transparent;
+    letter-spacing: 0px;
+}
+ul#drop_menu1 ul li:hover >a, ul#drop_menu1 ul li.hover >a, ul#drop_menu1 ul li:hover >a span, ul#drop_menu1 ul li.hover >a span, ul#drop_menu1 ul li:hover >a font, ul#drop_menu1 ul li.hover >a font {
+    color: #ffffff;
+    cursor: pointer;
+}
+/*************************************************************************************************/
+
+/* II.E. Has children icon (default state) */
+
+/*************************************************************************************************/
+ ul#drop_menu1 ul li a span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 ul li a span, ul#drop_menu1 ul li a font {
+    padding: 0px 0px 0px 0px;
+}
+/*************************************************************************************************/
+
+/* II.F. Has children icon (hover state) */
+
+/*************************************************************************************************/
+ ul#drop_menu1 ul li:hover >a span, ul#drop_menu1 ul li.hover >a span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 ul li:hover >a span, ul#drop_menu1 ul li.hover >a span, ul#drop_menu1 ul li:hover >a font, ul#drop_menu1 ul li.hover >a font {
+    padding: 0px 0px 0px 0px;
+}
+ul#drop_menu1 ul li a.sel span {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: none;
+}
+ul#drop_menu1 ul li > a.sel span, ul#drop_menu1 ul li > a.sel font {
+    padding: 0px 0px 0px 0px;
+    color: #ffffff;
+}
+/*************************************************************************************************/
+
+/* III.B. Item customization */
+
+/*************************************************************************************************/
+
+/* III.B.1. Custom default item style */
+ ul#drop_menu1 ul li a.sel {
+    background: rgba(0, 0, 0, 0.1) none no-repeat left center scroll;
+}
+ul#drop_menu1 ul li a.sel, ul#drop_menu1 ul li a.sel span, ul#drop_menu1 ul li a.sel font {
+    cursor: pointer;
+}
+/*************************************************************************************************/
+
+/* IV.A Mobile menu customization */
+
+/*************************************************************************************************/
+
+/*presetstart*/
+ .fm2_drop_menu1_mobile-overlay {
+    background: rgba(0, 0, 0, 0.70) none repeat top left scroll;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    display: inline;
+    z-index: 10050;
+}
+.fm2_drop_menu1_mobile-overlay-hide {
+    background: rgba(0, 0, 0, 0) none repeat top left scroll;
+    display: none;
+}
+/************************* mobile button ************************/
+ a#fm2_drop_menu1_mobile_button {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 1em 0px 1em 0px;
+    position: relative;
+    width: auto;
+    text-decoration: none;
+    min-width: 50px;
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #414141;
+    font-family: inherit;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:block;
+}
+a#fm2_drop_menu1_mobile_button span {
+    color: #FFFFFF;
+}
+a#fm2_drop_menu1_mobile_button span.caption {
+    text-transform: uppercase;
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_menu.png") no-repeat 0 center scroll;
+    background-position: left center;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight:400;
+}
+a#fm2_drop_menu1_mobile_button span.down-arrow {
+    display: none;
+}
+/************************* mobile menu ************************/
+ div#fm2_drop_menu1_jq_menu_back div.main-menu-header {
+    background: #414141 url("../../mu-plugins/xtddropdownmenu/assets/default/close_icon.png") no-repeat center center scroll;
+    border-left: 0 none #000000;
+    border-top: 0 none #000000;
+    border-bottom: 0 none #000000;
+    border-right: 0 none #000000;
+    padding: 14px 14px 14px 14px;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    float: right;
+    text-decoration: none;
+    min-width: 14px;
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 1;
+}
+div#fm2_drop_menu1_jq_menu_back div.main-menu-header p span.caption:before {
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_menu.png") no-repeat -2px scroll;
+    width: 18px;
+    content: ' ';
+    height: 20px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 9px;
+}
+div#fm2_drop_menu1_jq_menu_back {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    font-size: 0.9em;
+}
+div#fm2_drop_menu1_jq_menu_back ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header {
+    background: #000 none repeat top left scroll;
+    position: relative;
+    width: auto;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div#fm2_drop_menu1_jq_menu_back a {
+    padding: 1em 0px 1em 0px;
+    overflow: hidden;
+    background-color: #3377FF;
+    font-family: inherit;
+    font-weight: bold;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >a {
+    /*margin: 5px 5px 5px 5px;*/
+    display: inline-block;
+    width: 50px;
+    height: 53px;
+    float: left;
+    background-color: blue;
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow_large.png") no-repeat center scroll;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >a:hover, div#fm2_drop_menu1_jq_menu_back div.menu-header >a.hover {
+    background-color: lime;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p {
+    margin: 0 0 0 0;
+    color: #FFF;
+    text-indent: -40px;
+    /*line-height: 50px;*/
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p:hover, div#fm2_drop_menu1_jq_menu_back div.menu-header >p.hover {
+    color: #CCF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+    background: transparent none repeat left top scroll;
+    text-decoration: none;
+    display: block;
+    width: auto;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container >.menu {
+    float: left;
+    width: 100%;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 50px;
+    position: relative;
+    background-color: #F7F7F7;
+    line-height: 50px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li p {
+    margin: 0 0 0 0;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a {
+    background: transparent none repeat left top scroll;
+    border-left: 0 none #000000;
+    border-top: 0 none #000000;
+    border-bottom: 0 none #000000;
+    border-right: 0 none #000000;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch, div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf {
+    margin: 0 5px 0 5px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+    content: "+ ";
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf:before {
+    content: "- ";
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis:last-child {
+    border-bottom: 2px solid #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+    border-bottom: 2px solid #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back ul {
+    margin: 0px 10px 10px 10px;
+    list-style-type: none;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container div.main-menu ul li.clicked, div#fm2_drop_menu1_jq_menu_back div.menu-container div.submenu ul li.clicked {
+    background-color: #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis a {
+    width: auto;
+    float: left;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a {
+    padding: 0 9px 0 9px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a, div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a span {
+    color: white;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf:before, div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+    width: 10px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf:before {
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_circle.png") no-repeat top left scroll;
+    opacity: 0.5;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow.png") no-repeat top left scroll;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before, div#fm2_drop_menu1_jq_menu_back div.menu-container .leaf:before, a#fm2_drop_menu1_mobile_button span.caption:before {
+    content: ' ';
+    height: 20px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background-position: -2px 1px;
+    margin-right: 9px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis, div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+    background-color: #414141;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header, div#fm2_drop_menu1_jq_menu_back div.menu-header >a {
+    background-color: #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+    text-align: center;
+    color: #FFFFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header >a:hover, div#fm2_drop_menu1_jq_menu_back div.menu-header >a.hover {
+    background-color: transparent;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li {
+    height: 43px;
+    line-height: 0;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis a {
+    margin-top: 10px;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container >.main-menu:before {
+    background: #00BFFF none repeat top left scroll;
+    margin: 0 10px 0 10px;
+    display: block;
+    width: auto;
+    height: 2px;
+    content: ' ';
+}
+/*presetend*/
+
+/*************************************************************************************************/
+
+/* IV.A Mobile menu skin customization */
+
+/*************************************************************************************************/
+ div#fm2_drop_menu1_jq_menu_back a span, div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a, div#fm2_drop_menu1_jq_menu_back div.menu-container ul li a span, div#fm2_drop_menu1_jq_menu_back div.menu-header >p a {
+    color: #FFFFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis:last-child, div#fm2_drop_menu1_jq_menu_back div.menu-header p >a {
+    border-bottom-color: #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-header, div#fm2_drop_menu1_jq_menu_back div.menu-header >a, div#fm2_drop_menu1_jq_menu_back div.menu-container >.main-menu:before, div#fm2_drop_menu1_jq_menu_back div.menu-container div.main-menu ul li.clicked, div#fm2_drop_menu1_jq_menu_back div.menu-container div.submenu ul li.clicked {
+    background-color: #00BFFF;
+    border-bottom-color: #00BFFF;
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container ul li.ellipsis, div#fm2_drop_menu1_jq_menu_back div.menu-header >p a, div#fm2_drop_menu1_jq_menu_back div.main-menu-header {
+    background-color: #414141;
+}
+a#fm2_drop_menu1_mobile_button {
+    background-color: transparent;
+    margin-left:0px;
+    margin-right:0px;
+    border-width:0px;
+    border-style:none;
+    border-color:transparent;
+    color:#66CCFF;
+    text-align:center;
+    padding-left:10px;
+    font-weight:700;
+    font-family:inherit;
+    font-size:17px;
+    border-radius:0px;
+}
+a#fm2_drop_menu1_mobile_button span {
+    color: white;
+}
+div#fm2_drop_menu1_jq_menu_back div.main-menu-header p span.caption:before {
+    background-image: url("../../mu-plugins/xtddropdownmenu/assets/default/mini_menu.png");
+}
+div#fm2_drop_menu1_jq_menu_back div.menu-container .branch:before {
+    background: transparent url("../../mu-plugins/xtddropdownmenu/assets/default/mini_arrow.png") no-repeat top left scroll;
+}
+ul#drop_menu1 ul li ul {
+    left: 201px;
+    top: -1px;
+}
+ul#drop_menu1 > li > a font, ul#drop_menu1 > li > a span {
+    color: #ffffff;
+    text-transform:uppercase;
+    font-weight:600;
+    font-family:Raleway, sans-serif;
+    font-size:13px;
+    letter-spacing:3px;
+}
+ul#drop_menu1 > li:hover > a font, ul#drop_menu1 > li:hover > a span, ul#drop_menu1 > li.hover > a font, ul#drop_menu1 > li.hover > a span {
+    color: #66CCFF;
+}
+ul#drop_menu1 > li > a.sel font, ul#drop_menu1 > li > a.sel span {
+    color: #66CCFF;
+    font-weight:600;
+    font-family:Raleway, sans-serif;
+    letter-spacing:3px;
+    font-size:13px;
+}
+ul#drop_menu1 > li ul {
+    top: 80px;
+    border-top-width:0px;
+    border-right-width:0px;
+    border-bottom-width:2px;
+    border-left-width:0px;
+    border-top-color:rgba(0, 0, 0, 0);
+    border-right-color:rgba(0, 0, 0, 0);
+    border-bottom-color:#66CCFF;
+    border-left-color:rgba(0, 0, 0, 0);
+    border-top-style:none;
+    border-right-style:none;
+    border-bottom-style:solid;
+    border-left-style:none;
+    background-image:none;
+    background-color:#23252A;
+    border-top-left-radius:0px;
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    padding-top:2px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    margin-top:0px;
+    left:-18px;
+}
+ul#drop_menu1 ul li a font, ul#drop_menu1 ul li a span {
+    color: #BDBDBD;
+    font-weight:600;
+    font-family:Raleway, sans-serif;
+    font-size:12px;
+    text-align:left;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+ul#drop_menu1 ul li:hover > a font, ul#drop_menu1 ul li:hover > a span, ul#drop_menu1 ul li.hover > a font, ul#drop_menu1 ul li.hover > a span {
+    color: #ffffff;
+    font-weight:600;
+}
+ul#drop_menu1 ul ul li a font, ul#drop_menu1 ul ul li a span {
+    text-transform: uppercase;
+}
+/* II.C.10. Menu item spacing */
+ ul#drop_menu1 ul li {
+    width: 200px;
+    padding: 0 0px 0px 0px;
+}
+/*       * *      * *      * *    ||           ||
+      * * *    * * *    * * *   ||  LEVEL 2  ||
+       * *      * *      * *    ||           ||
+*/
+
+/*************************************************************************************************/
+
+/* II.A. Positioning */
+
+/*************************************************************************************************/
+
+/* II.A.1 Left float for horizontal menus (more rows will be generated if available width is overpassed) */
+ ul#drop_menu1 ul li {
+    float: none;
+}
+ul#drop_menu1 ul li {
+    position: relative;
+}
+ul#drop_menu1 ul li {
+    display: block;
+}
+/*       * *      * *      * *    ||           ||
+      * * *    * * *    * * *   ||  LEVEL 1  ||
+       * *      * *      * *    ||           ||
+*/
+
+/*************************************************************************************************/
+
+/* II.A. Positioning */
+
+/*************************************************************************************************/
+
+/* II.A.1 Left float for horizontal menus (more rows will be generated if available width is overpassed) */
+ ul#drop_menu1 li {
+    float: none;
+    vertical-align: top;
+}
+/* I.B.2. Establish containing blocks (position: relative) from menu items on hover to be able to position sub-menus */
+ ul#drop_menu1 li {
+    position: relative;
+}
+.drop_down_menu_ul li {
+    font-weight: 600;
+    font-family:inherit;
+}
+@media only screen and (min-width : 768px) {
+    a#fm2_drop_menu1_mobile_button {
+        background-color: #555555;
+        text-align:center;
+    }
+    a#fm2_drop_menu1_mobile_button span.caption {
+        text-transform: none;
+        font-weight:normal;
+        font-size:14px;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    ul#drop_menu1 > li > a {
+        padding-left: 25px;
+        padding-right:25px;
+    }
+    ul#drop_menu1 > li ul {
+        top:;
+    }
+    a#fm2_drop_menu1_mobile_button {
+        background-color: #555555;
+        text-align:center;
+    }
+    a#fm2_drop_menu1_mobile_button span.caption {
+        text-transform: none;
+        font-weight:normal;
+        font-size:14px;
+    }
+}

@@ -1,0 +1,71 @@
+/* 
+    Created on : Sep 5, 2016, 10:03:03 PM
+    Author     : alhanna
+*/
+
+.search-bar {
+    float:right;
+    width:50%;
+    min-height: 100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: 1px solid #777;
+}
+.search-bar #wp_widget2 {
+	min-width: 60%;
+}
+.search-bar #wp_widget2 .searchform #s {
+    padding-left:40px;
+    width: 100%;
+    background: #fff url(../../mu-plugins/searchform/assets/searchIcon_normalState.png) no-repeat scroll 8px 10px;
+    border:1px solid #E1E4E6;
+    display:inline-block;
+    min-height:42px;
+    color:#666;
+    outline:0;
+    margin-top:0;
+    transition:all .4s linear 0s;
+    font:normal normal 400 15px/normal Lato, sans-serif;    
+}
+.search-bar #wp_widget2 .searchform {
+    min-height: 44px;
+    margin-top:0em;
+    margin-bottom:0em;
+}
+.search-bar #wp_widget2 .searchform #s:hover {
+    border-color:#66CCFF;
+}
+.search-bar #wp_widget2 .searchform #s:hover {
+    background-image:url("../../uploads/2015/03/searchIcon_hoverState.png");
+}
+.search-bar p {
+    font-weight: bolder;
+}
+
+@media only screen and (min-width : 768px) {
+    .search-bar {
+        clear: both;
+        min-height: 60px;
+        margin-left:15px;
+    }
+    .search-bar #wp_widget2 .searchform #s {
+        min-height:42px;
+        border-style:solid;
+        padding-left:40px;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    .search-bar {
+        min-height: 60px;
+    }
+    .search-bar #wp_widget2 .searchform #s {
+        border-style:solid;
+        padding-left:40px;
+    }
+}    
+
+/* FROM SEARCH.CSS*/
+

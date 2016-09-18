@@ -1,0 +1,77 @@
+.wcqd-single-quick-container {
+	border: 2px solid #66CCFF;
+	width: auto;
+	max-width: 300px;
+    border-radius: 15px;
+    margin: 0;
+    text-align: center;
+}
+.wcqd-single-quick-container h3 {
+	margin-top: 0;
+	padding-top: 0;
+	font-family: inherit;
+	color: #000;
+}
+.wcqd-single-quick-container p {
+	font-family: inherit;
+	color: #666;
+}
+.wcqd-single-quick-container form {
+    margin:10px;
+}
+
+.wcqd-single-quick-container input[type="number"] {
+	padding: 5px;
+	width: 60%;
+	max-width: 60%;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.wcqd-single-quick-container input[type="submit"],
+form#wp-stripe-payment-form .stripe-submit-button span {
+    display: block;
+    position: relative;
+    padding: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    background: #1275ff;
+    background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -webkit-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -moz-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -ms-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: -o-linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    background-image: linear-gradient(#7dc5ee,#008cdd 85%,#30a2e4);
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 10px;
+    margin: auto;
+    vertical-align: middle:;
+}
+.wcqd-single-quick-container input[type="submit"]:hover {
+    cursor: pointer;
+    background: #444;
+    color: #fff;
+}
+.shop_table,
+.cart {	
+	border: 1px solid #CCCCCC;
+}
+.product-remove a.remove {
+	margin-left: 5px;
+	color: red;
+}

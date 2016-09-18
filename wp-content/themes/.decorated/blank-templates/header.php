@@ -1,0 +1,2 @@
+<!-- TemplateBegin id="s_x57007a1f4c324267300992192" template="/blank-templates/header.php"--><?php echo blank_generate_loop_tags("/blank-templates/header.php") ?>
+   <!-- TemplateEnd id="s_x57007a1f4c324267300992192" -->

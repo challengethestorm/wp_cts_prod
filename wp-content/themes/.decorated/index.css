@@ -1,0 +1,210 @@
+/* GRID BASED ([{"device":"mobile","options":{"gutter":"15","columns":12,"width":"100%"}},{"device":"tablet","options":{"gutter":"15","columns":12,"width":"90%"}},{"device":"desktop","options":{"gutter":"15","columns":12,"width":"80%","maxWidth":"1232px"}}]) */
+ body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin:0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 157%;
+    color: #666666;
+}
+.content {
+    min-height:100px;
+}
+.content_column {
+    min-height:100px;
+    margin:0 auto;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+.content_column_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.post-item {
+    padding-left: 15px;
+    padding-right:15px;
+}
+.post-content {
+    min-height: 222px;
+}
+.column_1 {
+    float: none;
+    min-height: 100px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0px;
+}
+.post-list {
+    min-height: 100px;
+    width: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+}
+.row_post {
+    clear: both;
+    min-height: 100px;
+    margin-right:-15px;
+    margin-left:-15px;
+}
+.element1 {
+    margin-bottom: 50px;
+}
+.column_2 {
+    float: left;
+    width: auto;
+    min-height: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:400;
+    font-family:Lato, sans-serif;
+    display:inline-block;
+}
+.column_3 {
+    float: right;
+    width: auto;
+    min-height: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:right;
+    display:inline-block;
+}
+h1.heading1 {
+    border-bottom:1px none transparent;
+    padding-bottom:10px;
+    font-size:28px;
+    font-weight:400;
+    border-color:transparent;
+    border-style:none;
+    border-width:0px;
+}
+.post-content div p {
+    border-color:transparent;
+    border-style:none;
+    border-width:1px;
+    font-size:17px;
+    margin-top:0px;
+    font-weight:300;
+    font-family:Lato, sans-serif;
+}
+div .navigation {
+    margin-top: 30px;
+}
+span.span6 {
+    font-size: 13px;
+    color:#999999;
+}
+span.span7 {
+    font-size: 13px;
+}
+span.span8 {
+    font-size: 13px;
+    color:#999999;
+}
+.column_2 a {
+    text-decoration: none;
+    font-size:13px;
+    font-weight:400;
+    font-family:Lato, sans-serif;
+    color:#66CCFF;
+}
+span.span9 {
+    font:normal normal 400 13px/normal Lato, sans-serif;
+    color:#999999;
+}
+.post-content-single div p {
+    margin-top: 20px;
+    margin-bottom:20px;
+    line-height:170%;
+}
+@media only screen and (min-width : 768px) {
+    .content_column {
+        width: 90%;
+    }
+    .column_1 {
+        float: left;
+        min-height: 100px;
+        width: 16.6667%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0px;
+    }
+    .post-list {
+        width: 75%;
+    }
+    .content {
+        min-height: 398px;
+    }
+    .post-item {
+        width: 75%;
+    }
+    .row_post {
+        clear: both;
+        min-height: 43px;
+        margin-left:-15px;
+    }
+    .column_2 {
+        float: left;
+        width: 66.6667%;
+        min-height: 23px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display:block;
+    }
+    .column_3 {
+        float: left;
+        width: 33.3333%;
+        min-height: 23px;
+        padding-left: 15px;
+        padding-right: 15px;
+        display:block;
+    }
+    .row_search {
+        clear: both;
+        min-height: 100px;
+        width: auto;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    .content_column {
+        width: 80%;
+        max-width:1232px;
+    }
+    .column_1 {
+        float: left;
+        min-height: 561px;
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .post-list {
+        width: 75%;
+    }
+    .content {
+        min-height: 398px;
+    }
+    .post-item {
+        width: 75%;
+        float:left;
+    }
+    .row_post {
+        clear: both;
+        min-height: 43px;
+        margin-left:-15px;
+    }
+    .column_2 {
+        width: 66.6667%;
+        min-height:23px;
+    }
+    .column_3 {
+        width: 33.3333%;
+        min-height:23px;
+    }
+    .row_search {
+        clear: both;
+        min-height: 100px;
+        width: auto;
+    }
+}

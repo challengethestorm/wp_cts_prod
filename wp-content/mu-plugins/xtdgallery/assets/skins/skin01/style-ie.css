@@ -1,0 +1,33 @@
+body {
+	border-radius: 0px;
+}
+
+.@instanceName #fancybox-outer {
+	position:relative;
+	-pie-poll:true;
+}
+
+.@instanceName #fancybox-content{
+	position:relative;
+    border-radius: @rounded_corners_size @rounded_corners_size 0px 0px;
+    -pie-background: @border_color;
+    -pie-poll:true;
+} 
+
+.@instanceName .fancybox-title-outside {
+	z-index: 100;
+	position:relative;
+	border-radius: 0px 0px @rounded_corners_size @rounded_corners_size;
+	-pie-poll:true;
+	-pie-background: @container_color;
+
+	
+}
+
+.@instanceName .lightbox-control-next:hover,
+.@instanceName .lightbox-control-prev:hover{
+	position:relative;
+    -pie-poll:true;
+}
+
+.@instanceName img {-ms-interpolation-mode: bicubic;}

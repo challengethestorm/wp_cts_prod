@@ -1,0 +1,36 @@
+/* lte IE 9 style*/
+.comment a.comment-reply-link {
+	border-radius: 3px;
+	position: relative;
+}
+
+.commentlist > li.comment {
+	-pie-background: transparent none scroll ;
+}
+
+.comment-form .comment-respond .comment-form p.form-submit #submit {
+	border-radius: 25px;
+	position: relative;
+}
+
+.comment-form .comment-respond .comment-form p.comment-form-comment #comment {
+	border-radius: 3px;
+	position: relative;
+}
+
+.comment-form .comment-respond .comment-form p.comment-form-url #url {
+	border-radius: 3px;
+	position: relative;
+}
+
+.comment-form .comment-respond .comment-form p.comment-form-email #email {
+	border-radius: 3px;
+	position: relative;
+}
+
+.comment-form .comment-respond .comment-form p.comment-form-author #author {
+	border-radius: 3px;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

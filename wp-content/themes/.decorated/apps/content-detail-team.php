@@ -1,0 +1,19 @@
+<!-- TemplateBegin id="s_x57007a1f4a6cf66473666381" template="/apps/content-detail-team.php"--><?php echo blank_generate_loop_tags("/apps/content-detail-team.php") ?><h1 class="ts-team-name-field"><!-- SectionBegin id='s_x57007a1f4a76a07495774582' shortcode='cp_post_meta name=&quot;cp_title&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;cp_title&quot;]&#039;); ?&gt;'--><?php echo do_shortcode( '[cp_post_meta name="cp_title"]'); ?><!-- SectionEnd id='s_x57007a1f4a76a07495774582' --></h1>
+<p class="ts-position-field"> <span><!-- SectionBegin id='s_x57007a1f4a7aa31627730083' shortcode='cp_post_meta name=&quot;Team member position&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;Team member position&quot;]&#039;); ?&gt;'--><?php echo do_shortcode( '[cp_post_meta name="Team member position"]'); ?><!-- SectionEnd id='s_x57007a1f4a7aa31627730083' --></span>
+</p>
+<hr class="ts-customClass4"><img src="/* SectionBegin id='s_x57007a1f4a7e397827523384' shortcode='cp_post_meta name=&quot;Large Image&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;Large Image&quot;]&#039;); ?&gt;' */<?php echo do_shortcode( '[cp_post_meta name="Large Image"]'); ?>/* SectionEnd id='s_x57007a1f4a7e397827523384' */" class="ts-team-image-field"  />
+<div class="ts-row_38">
+<div class="ts-column_31">
+  <h3>Who I Am</h3>
+  <hr class="ts-customClass4">
+  <!-- SectionBegin id='s_x57007a1f4a81b11504275985' shortcode='tag_post_content' code='&lt;?php echo do_shortcode( &#039;[tag_post_content]&#039;); ?&gt;'--><?php echo do_shortcode( '[tag_post_content]'); ?><!-- SectionEnd id='s_x57007a1f4a81b11504275985' -->
+</div>
+<div class="ts-column_32">
+  <h3>About me</h3>
+  <hr class="ts-customClass4">
+  <h5>Skills</h5>
+  <!-- SectionBegin id='s_x57007a1f4a84758357704786' shortcode='tag_post_tags before=&quot;&quot;' code='&lt;?php echo do_shortcode( &#039;[tag_post_tags before=&quot;&quot;]&#039;); ?&gt;'--><?php echo do_shortcode( '[tag_post_tags before=""]'); ?><!-- SectionEnd id='s_x57007a1f4a84758357704786' -->
+  <hr class="ts-customClass4">
+  <h5>Get in touch</h5><a href="/* SectionBegin id='s_x57007a1f4a88042241591987' shortcode='cp_post_meta name=&quot;Facebook page&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;Facebook page&quot;]&#039;); ?&gt;' */<?php echo do_shortcode( '[cp_post_meta name="Facebook page"]'); ?>/* SectionEnd id='s_x57007a1f4a88042241591987' */" class="team-facebook-page-field" ><img src="<?php echo do_shortcode('[tag_link_site_url]'); ?>/wp-content/mu-plugins/cloudpress_applications/defaults/team/assets/facebook1.png"/></a><a href="/* SectionBegin id='s_x57007a1f4a8d886819559589' shortcode='cp_post_meta name=&quot;LinkedIn page&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;LinkedIn page&quot;]&#039;); ?&gt;' */<?php echo do_shortcode( '[cp_post_meta name="LinkedIn page"]'); ?>/* SectionEnd id='s_x57007a1f4a8d886819559589' */" class="team-linkedin-page-field" ><img src="<?php echo do_shortcode('[tag_link_site_url]'); ?>/wp-content/mu-plugins/cloudpress_applications/defaults/team/assets/linked-in1.png"/></a><a href="/* SectionBegin id='s_x57007a1f4a93114210129791' shortcode='cp_post_meta name=&quot;Twitter page&quot;' code='&lt;?php echo do_shortcode( &#039;[cp_post_meta name=&quot;Twitter page&quot;]&#039;); ?&gt;' */<?php echo do_shortcode( '[cp_post_meta name="Twitter page"]'); ?>/* SectionEnd id='s_x57007a1f4a93114210129791' */" class="team-twitter-page-field" ><img src="<?php echo do_shortcode('[tag_link_site_url]'); ?>/wp-content/mu-plugins/cloudpress_applications/defaults/team/assets/twitter1.png"/></a>
+</div>
+</div><!-- TemplateEnd id="s_x57007a1f4a6cf66473666381" -->

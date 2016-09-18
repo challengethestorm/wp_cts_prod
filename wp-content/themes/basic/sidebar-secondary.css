@@ -1,0 +1,29 @@
+/* GRID BASED ([{"device":"mobile","options":{"gutter":"15","columns":12,"width":"100%"}},{"device":"tablet","options":{"gutter":"15","columns":12,"width":"90%"}},{"device":"desktop","options":{"gutter":"15","columns":12,"width":"80%","maxWidth":"1232px"}}]) */
+.secondary-sidebar {
+    float: none;
+    min-height: 200px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0px;
+}
+@media only screen and (min-width : 768px) {
+    .secondary-sidebar {
+        float: left;
+        min-height: 700px;
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+     .secondary-sidebar {
+        float: left;
+        min-height: 700px;
+        width: 25%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

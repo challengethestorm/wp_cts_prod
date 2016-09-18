@@ -1,0 +1,13 @@
+/* 
+    Created on : Sep 3, 2016, 8:18:57 PM
+    Author     : alhanna
+*/
+
+.close {
+    z-index: 9;
+}
+.open, 
+.opening, 
+.closing {
+    z-index: 999;
+}

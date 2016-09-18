@@ -1,0 +1,32 @@
+/* lte IE 9 style*/
+.tsa-row_14 {
+	-pie-background: transparent url("../../../uploads/2015/07/bkg-4.jpg") no-repeat fixed center bottom ;
+	position: relative;
+}
+
+p.tsa-paragraph1 {
+	color: #FFFFFF;
+	position: relative;
+}
+
+img.tsa-image1 {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.next-page-link {
+	border-radius: 25px;
+	position: relative;
+}
+
+a.prev-page-link {
+	border-radius: 25px;
+	position: relative;
+}
+
+a.next-page-link {
+	border-radius: 0px;
+	position: relative;
+}
+
+@media only screen and (min-width: 768px) { }@media only screen and (min-width: 1024px) { }

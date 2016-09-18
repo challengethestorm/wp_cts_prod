@@ -1,0 +1,294 @@
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+ .xtd-body-fix {
+    overflow:hidden;
+}
+.Gallery11_lightbox .fancybox-outer-wrapper {
+    width:0;
+    height:0;
+}
+.xtd-mobile-caption-title {
+    color: rgba(255, 255, 255, 0.84);
+}
+.xtd-mobile-caption-number {
+    margin-left: 10px;
+}
+#xtd-mobile-close-button {
+    cursor: pointer;
+    display: block;
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    z-index: 19991;
+}
+a.xtdLightbox img {
+    border:none;
+}
+.Gallery11_lightbox #fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1101;
+    outline: none;
+    display: none;
+    margin-top:20px;
+}
+.Gallery11_lightbox #fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101;
+}
+.Gallery11_lightbox #fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    background: #fff;
+}
+.Gallery11_lightbox .fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+.xtd-hide {
+    display:none;
+}
+/*Default Fancybox skin*/
+ .Gallery11_lightbox #fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url('skin01_assets/fancybox.png');
+}
+.Gallery11_lightbox #fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+.Gallery11_lightbox .image-title {
+    padding: 10px 10px;
+    float: left;
+}
+.Gallery11_lightbox .image-number {
+    padding: 10px 10px;
+    float: right;
+}
+.Gallery11_lightbox #fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+.Gallery11_lightbox #fancybox-effects {
+    top: 0;
+    position: absolute;
+    z-index: 99999;
+}
+.Gallery11_lightbox #fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    /*box shadow for the container*/
+    -webkit-box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 0px rgba(255, 255, 255, 1);
+}
+.Gallery11_lightbox #fancybox-content {
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    border-color: #ffffff;
+    border-style: solid;
+}
+.Gallery11_lightbox #fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0;
+}
+.Gallery11_lightbox #fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+}
+.Gallery11_lightbox #fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('skin01_assets/fancybox.png') -40px 0px;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+}
+.Gallery11_lightbox #fancybox-left, .Gallery11_lightbox #fancybox-right {
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url('skin01_assets/blank.gif');
+    z-index: 1102;
+    display: none;
+}
+.Gallery11_lightbox #fancybox-left {
+    left: 0px;
+}
+.Gallery11_lightbox #fancybox-right {
+    right: 0px;
+}
+.Gallery11_lightbox #fancybox-left-ico, .Gallery11_lightbox #fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+.Gallery11_lightbox #fancybox-left-ico {
+    background-image: url('skin01_assets/fancybox.png');
+    background-position: -40px -30px;
+}
+.Gallery11_lightbox #fancybox-right-ico {
+    background-image: url('skin01_assets/fancybox.png');
+    background-position: -40px -60px;
+}
+.Gallery11_lightbox #fancybox-left span {
+    left: 20px;
+    display:none;
+}
+.Gallery11_lightbox #fancybox-right span {
+    left: auto;
+    right: 20px;
+    display:none;
+}
+.Gallery11_lightbox #fancybox-left:hover span {
+    display:block;
+}
+.Gallery11_lightbox #fancybox-right:hover span {
+    display:block;
+}
+.Gallery11_lightbox #fancybox-title {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+    z-index: 1102;
+}
+.Gallery11_lightbox .fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative;
+}
+.Gallery11_lightbox .fancybox-title-outside {
+    padding-top: 10px;
+    color: #fff;
+}
+.Gallery11_lightbox .fancybox-title-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left;
+}
+.Gallery11_lightbox #fancybox-title-over {
+    padding: 10px;
+    display: block;
+}
+.Gallery11_lightbox .fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px;
+}
+.Gallery11_lightbox #fancybox-title-float-wrap {
+    border: none;
+    border-collapse: collapse;
+    width: auto;
+}
+.Gallery11_lightbox #fancybox-title-float-wrap td {
+    border: none;
+    white-space: nowrap;
+}
+.Gallery11_lightbox #fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url('skin01_assets/fancybox.png') -40px -90px no-repeat;
+}
+.Gallery11_lightbox #fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url('skin01_assets/fancybox-x.png') 0px -40px;
+}
+.Gallery11_lightbox #fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url('skin01_assets/fancybox.png') -55px -90px no-repeat;
+}
+.Gallery11_lightbox #fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+.Gallery11_lightbox .extend-effect {
+    -webkit-animation: xtdLightbox-effect-13 0s ease;
+    -moz-animation: xtdLightbox-effect-13 0s ease;
+    -o-animation: xtdLightbox-effect-13 0s ease;
+    animation: xtdLightbox-effect-13 0s ease;
+}

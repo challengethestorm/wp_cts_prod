@@ -1,0 +1,2 @@
+<!-- TemplateBegin id="s_x57007a1f4c2b6314131661191" template="/blank-templates/footer.php"--><?php echo blank_generate_loop_tags("/blank-templates/footer.php") ?>
+   <!-- TemplateEnd id="s_x57007a1f4c2b6314131661191" -->

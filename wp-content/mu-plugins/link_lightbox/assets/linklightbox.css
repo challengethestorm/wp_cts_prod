@@ -1,0 +1,375 @@
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+ div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"], div[class^="LinkLightBox_"]  *, div[class*=" LinkLightBox_"] * {
+    box-sizing: content-box;
+
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] div#fancybox-xtdLightbox-effects {
+    perspective: none !important;
+}
+
+ .xtd-body-fix {
+    overflow:hidden;
+    position: fixed!important;
+    width: 100%;
+    height: 100%;
+ }
+
+ div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .fancybox-outer-wrapper{
+    width:0;
+    height:0;
+ }
+
+
+.xtd-mobile-caption-title{
+    color: rgba(255,255,255,0.84);
+}
+
+.xtd-mobile-caption-number{
+    margin-left: 10px;
+    rgba(255,255,255,0.4);
+}
+
+
+
+#xtd-mobile-close-button {
+    cursor: pointer;
+    display: block;
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMDExREQ0NDE0QjYxMUUzQURDQUZBNzNGQzNCMTM0QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMDExREQ0NTE0QjYxMUUzQURDQUZBNzNGQzNCMTM0QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMwMTFERDQyMTRCNjExRTNBRENBRkE3M0ZDM0IxMzRDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMwMTFERDQzMTRCNjExRTNBRENBRkE3M0ZDM0IxMzRDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eZ6mhAAAAXNJREFUeNrs109Kw0AUBvDJ0KWIG2svIG5s1l2LeADP0YXLSlIMNFRP4wGkB3CddFHwAk3cSOtevzdtaZCqYfoSX2QefCGFmfTH/CPxkiRRqFPkAblEDpWMWiATZIC8tHA5Q56RIyWraMCukQukp3EZC0QWi2xjvZ5u6XWlBa3Jn+pAq4aUgzqogzrof4O+5nktffaCZvO5uun31TRNS/ehttSH+tYGPel01O0wVPejUSkstaG2gzA0fWud+vOuXwpbRHZ9/282029YLiTLrv8Oy4mk8vAp8sFxfEzTBLAY6KH5zYlkhW6wcRSZ++AuYkNWcOB72zuP98ktvtFcrUkaSUKulkFo1rCYEf26cbYbLDbLQQR0gyRYcU1yYzUXctcUc2J1VUhurBU0z7JSyF1Y25cS63OUXtmO2+3K++w99TZ/aIt0nyIO6qAO6qA80EUDnO8EnTQA+kTQAHkTjCRbQNAZ0kMekaUg4HJtItvsU4ABAHgqvWwLNLTGAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    z-index: 19991;
+}
+
+
+
+a.xtdLightbox img {
+    border:none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"]  #fancybox-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1101;
+    outline: none;
+    display: none;
+    margin-top:20px;
+}
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"]  #fancybox-hide-sel-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 1101;
+}
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"]  #fancybox-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+    background: #fff;
+}
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"]  .fancybox-bg {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1001;
+}
+
+
+.xtd-hide{
+    display:none;
+}/*Default Fancybox skin*/
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-loading div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 480px;
+    background-image: url('skin01_assets/fancybox.png');
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+    display: none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .image-title{
+    padding: 10px 10px;
+    float: left;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .image-number{
+    padding: 10px 10px;
+    float: right;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-tmp {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: auto;
+    display: none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-effects{
+    top: 0;
+    position: absolute;
+    z-index: 99999;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-outer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+
+    /*box shadow for the container*/
+
+    -webkit-box-shadow: 0px 0px 0px rgba(255,255,255,1);
+    -moz-box-shadow:    0px 0px 0px rgba(255,255,255,1);
+    box-shadow:         0px 0px 0px rgba(255,255,255,1);
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-content {
+    width: 0;
+    height: 0;
+    padding: 0;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1102;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-error {
+    color: #444;
+    font: normal 12px/20px Arial;
+    padding: 14px;
+    margin: 0;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-img {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    line-height: 0;
+    vertical-align: top;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('skin01_assets/fancybox.png') -40px 0px;
+    cursor: pointer;
+    z-index: 1103;
+    display: none;
+}
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left, div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right {
+    position: absolute;
+    bottom: 0%;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    outline: none;
+    background: transparent url('skin01_assets/blank.gif');
+    z-index: 1102;
+    display: none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left {
+    left: 0px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right {
+    right: 0px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left-ico, div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right-ico {
+    position: absolute;
+    top: 50%;
+    left: -9999px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    cursor: pointer;
+    z-index: 1102;
+    display: block;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left-ico {
+    background-image: url('skin01_assets/fancybox.png');
+    background-position: -40px -30px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right-ico {
+    background-image: url('skin01_assets/fancybox.png');
+    background-position: -40px -60px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left span {
+    left: 20px;
+    display:none;
+}
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right span {
+    left: auto;
+    right: 20px;
+    display:none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-left:hover span {
+    display:block;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-right:hover span {
+    display:block;
+}
+
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title {
+    font-family: 'Helvetica','Arial',sans-serif;
+    font-size: 12px;
+    z-index: 1102;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .fancybox-title-inside {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    position: relative;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .fancybox-title-outside {
+    padding-top: 10px;
+    color: #fff;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .fancybox-title-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #FFF;
+    text-align: left;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-over {
+    padding: 10px;
+    display: block;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .fancybox-title-float {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    height: 32px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-float-wrap {
+    border: none;
+    border-collapse: collapse;
+    width: auto;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-float-wrap td {
+    border: none;
+    white-space: nowrap;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-float-left {
+    padding: 0 0 0 15px;
+    background: url('skin01_assets/fancybox.png') -40px -90px no-repeat;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-float-main {
+    color: #FFF;
+    line-height: 29px;
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    background: url('skin01_assets/fancybox-x.png') 0px -40px;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-title-float-right {
+    padding: 0 0 0 15px;
+    background: url('skin01_assets/fancybox.png') -55px -90px no-repeat;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] #fancybox-loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1104;
+    display: none;
+}
+
+div[class^="LinkLightBox_"], div[class*=" LinkLightBox_"] .extend-effect{                              
+
+    -webkit-animation: xtdLightbox-effect-13 0s ease;
+    -moz-animation: xtdLightbox-effect-13 0s ease;
+    -o-animation: xtdLightbox-effect-13 0s ease;
+    animation: xtdLightbox-effect-13 0s ease;
+
+}

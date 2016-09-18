@@ -1,0 +1,53 @@
+/* lte IE 9 style*/
+a.button {
+	border-radius: 100px;
+	position: relative;
+}
+
+a.button:active {
+	position: relative;
+}
+
+a.button {
+	position: relative;
+}
+
+a.social_link_fb2 {
+	-pie-background: rgb(51, 51, 51) url("../../uploads/fb_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+a.social_link_fb2 {
+	border-radius: 0px;
+	position: relative;
+}
+
+a.social_link_gPlus2 {
+	-pie-background: rgb(51, 51, 51) url("../../uploads/fb_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+a.social_link_gPlus2 {
+	border-radius: 0px;
+	position: relative;
+}
+
+a.social_link_twitter2 {
+	-pie-background: rgb(51, 51, 51) url("../../uploads/fb_icon.png") no-repeat scroll center center ;
+	border-radius: 100px;
+	position: relative;
+}
+
+a.social_link_twitter2 {
+	border-radius: 0px;
+	position: relative;
+}
+
+a.social_link_ig2 {
+	-pie-background: rgb(252, 252, 252) url("../../uploads/2016/02/white-instagram.png") scroll ;
+	position: relative;
+}
+
+@media only screen and (min-width : 768px) { }@media only screen and (min-width : 1024px) { }

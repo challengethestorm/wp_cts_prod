@@ -1,0 +1,1 @@
+<?php require WPMU_PLUGIN_DIR . '/cp-tabs/cp-tabs.php';

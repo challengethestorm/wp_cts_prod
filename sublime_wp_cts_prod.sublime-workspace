@@ -1,0 +1,805 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"str",
+				"strPageTitle"
+			],
+			[
+				"email",
+				"emailTitle1"
+			],
+			[
+				"replace",
+				"replaceSearch"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"tras",
+				"translateX()"
+			],
+			[
+				"term",
+				"term_list"
+			],
+			[
+				"box-s",
+				"box-sizing"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"back-",
+				"background-position"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"trasn",
+				"transform-origin"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"foot",
+				"footerTop"
+			],
+			[
+				"side",
+				"sidebarHeight"
+			],
+			[
+				"header",
+				"headerBottom"
+			],
+			[
+				"out",
+				"outerheight"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"remove",
+				"removeAttr"
+			],
+			[
+				"float",
+				"floating-div"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"backgron",
+				"background-color"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"font-size",
+				"font-size"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"tral",
+				"translateY()"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"FFFFFF",
+				"FFFFFF"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"66CCFF",
+				"66CCFF"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"redips",
+				"redipsInit"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 73.0,
+		"last_filter": "winscp",
+		"selected_items":
+		[
+			[
+				"winscp",
+				"SFTP: Browse With WinSCP"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"sftp:b",
+				"SFTP: Browse Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Edit Server…"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"form",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 549.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)  "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/wp_cts_prod"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/wp_cts_prod/index.php",
+		"/C/wamp64/www/wp_cts_prod/wp-content/install.php",
+		"/C/wamp64/www/wp_cts_prod/wp-content/index.php",
+		"/C/Users/alhanna/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/wamp64/www/wp_cts_prod/wp-content/RevealFX Codes.txt",
+		"/C/Users/alhanna/AppData/Local/Temp/scp07316/public_html/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/CTS_prod",
+		"/C/Users/alhanna/AppData/Local/Temp/scp07316/public_html/wp-content/themes/basic-child/sftp-config.json",
+		"/C/Users/alhanna/AppData/Local/Temp/scp41906/public_html/wp-content/plugins/strong-testimonials/uninstall.php",
+		"/C/wamp64/www/wp_cts_prod/wp-content/plugins/strong-testimonials/uninstall.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp45266/public_html/wp-content/plugins/strong-testimonials/view/controls/slideshow/buttons1/controls.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46125/public_html/wp-content/plugins/strong-testimonials/css/wpmtst-grid.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46632/public_html/wp-content/plugins/strong-testimonials/css/wpmtst-custom.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46024/public_html/wp-content/plugins/strong-testimonials/css/wpmtst-columns.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp45942/public_html/wp-content/plugins/strong-testimonials/view/class-strong-view-controls.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp45947/public_html/wp-content/plugins/strong-testimonials/view/class-strong-view.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp37856/public_html/wp-content/plugins/strong-testimonials/templates/modern/content.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp24762/public_html/wp-content/themes/basic-child/sidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp39834/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-two/content.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp38405/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-two/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp24273/public_html/test/wp-content/themes/basic-child/sidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp01286/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-widget/content.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp01500/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-widget/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp00426/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-single/content.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp00067/public_html/test/wp-content/plugins/strong-testimonials/templates/modern-single/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32890/public_html/test/wp-content/plugins/strong-testimonials/templates/modern/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp34081/public_html/test/wp-content/plugins/strong-testimonials/templates/modern2/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31120/public_html/test/wp-content/plugins/strong-testimonials/view/class-strong-view.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32471/public_html/test/wp-content/plugins/strong-testimonials/view/class-strong-view-controls.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31176/public_html/test/wp-content/plugins/strong-testimonials/view/controls/slideshow/buttons1/controls.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp51905/public_html/wp-content/plugins/recent-posts-widget-with-thumbnails/README.txt",
+		"/C/Users/alhanna/AppData/Local/Temp/scp51547/public_html/wp-content/plugins/recent-posts-widget-with-thumbnails/LICENSE.txt",
+		"/C/Users/alhanna/AppData/Local/Temp/scp51365/public_html/wp-content/plugins/recent-posts-widget-with-thumbnails/index.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp27096/public_html/wp-content/themes/basic-child/sidebar.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp33366/public_html/wp-content/themes/basic-child/search.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp45574/public_html/wp-content/themes/basic-child/search.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32796/public_html/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp47264/public_html/wp-content/themes/basic/page-templates/page-with-right-sidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp26876/public_html/wp-content/themes/basic-child/sidebar.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp43551/public_html/wp-content/themes/basic/search.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp26532/public_html/wp-content/themes/basic-child/search-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp29711/public_html/wp-content/themes/basic/search.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp29991/public_html/wp-content/themes/basic/sidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp40214/public_html/wp-content/plugins/simple-share-buttons-adder/inc/ssba_buttons.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp26692/public_html/wp-content/plugins/sumome/styles/styles.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp43846/public_html/wp-content/plugins/ns-slidebar-sliding-panel-sidebar/css/frontend.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp16352/public_html/wp-content/plugins/ns-slidebar-sliding-panel-sidebar/js/frontend.js",
+		"/C/Users/alhanna/AppData/Local/Temp/scp42875/public_html/wp-content/themes/basic-child/functions.php",
+		"/C/wamp64/www/wp_cts_prod/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp20381/public_html/wp-content/themes/basic-child/css/frontend.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46836/public_html/wp-content/plugins/ns-slidebar-sliding-panel-sidebar/templates/slidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp44842/public_html/wp-content/plugins/ns-slidebar-sliding-panel-sidebar/ns-slidebar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp51011/public_html/wp-content/themes/basic-child/content-single.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp13612/public_html/wp-content/plugins/simple-share-buttons-adder/inc/ssba_styles.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp54752/public_html/wp-content/themes/basic/page-templates/default-inner-page-template.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp43246/public_html/wp-content/themes/basic/style.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp42322/public_html/wp-content/themes/basic-child/content-single.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp42737/public_html/wp-content/themes/basic-child/content.css",
+		"/C/wamp64/logs/access.log",
+		"/C/wamp64/logs/apache_error.log",
+		"/C/Users/alhanna/Desktop/Projects/iLMS/2_Design/6_Archive/JIRA Imports/BulkCreate-configuration-201608171137.txt",
+		"/C/wamp64/bin/apache/apache2.4.18/conf/httpd.conf",
+		"/C/wamp64/www/wordpress_08282016/index.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp14897/public_html/wp-includes/version.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46469/public_html/test/wp-content/themes/basic/content-single.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp49656/public_html/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp35111/public_html/test/wp-content/plugins/mailchimp-top-bar/src/Bar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp48900/public_html/wp-content/themes/basic/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp40524/public_html/test/wp-content/themes/basic/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32119/public_html/test/wp-content/themes/basic/footer-default-inner-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32462/public_html/test/wp-content/themes/basic/footer.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp39764/public_html/test/wp-content/themes/basic/page-templates/default-inner-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp33268/public_html/test/wp-content/themes/basic/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp32827/public_html/test/wp-content/themes/basic/header.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31623/public_html/test/wp-content/themes/basic/header-default-inner-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31286/public_html/test/wp-content/themes/basic/page.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp30634/public_html/test/wp-content/themes/basic/content-single.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp27867/public_html/wp-content/plugins/mailchimp-top-bar/mailchimp-top-bar.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp23899/public_html/wp-content/plugins/mailchimp-for-wp/includes/forms/views/js/dummy-api.js",
+		"/C/Users/alhanna/Desktop/mc.html",
+		"/C/Users/alhanna/AppData/Local/Temp/scp17881/public_html/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp44837/public_html/wp-content/themes/basic-child/mailchimp_embed.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp45513/public_html/wp-content/themes/basic-child/css/mailchimp-embedded-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp41266/public_html/wp-content/themes/basic/mailchimp-embedded-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp40103/public_html/wp-content/plugins/mailchimp-for-wp/assets/css/form-themes.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp39879/public_html/wp-content/plugins/mailchimp-for-wp/assets/css/form-editor.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp39765/public_html/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.css",
+		"/C/Users/alhanna/Downloads/photo.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp35280/public_html/wp-content/cache/wp-cache-907e9e3793fde3a65bcd79705bd10f3e.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp21230/public_html/test/wp-content/themes/basic-child/archive-conditions.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp47147/public_html/wp-content/themes/basic-child/content-single.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp44976/public_html/wp-content/themes/basic-child/style.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp01595/public_html/wp-content/themes/basic/page.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46062/public_html/wp-content/themes/basic/style.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp46164/public_html/test/index.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp27130/public_html/wp-content/themes/basic/content-single.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp20356/public_html/wp-content/themes/basic-child/css/lightbox-callout.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp14359/public_html/wp-content/themes/basic/footer-landing-page-template.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp16801/public_html/wp-content/themes/basic-child/css/footer-disclaimer.css",
+		"/C/Users/alhanna/AppData/Local/Temp/wzf0df/basic/content.php",
+		"/C/Users/alhanna/AppData/Local/Temp/wzb87a/basic/page.php",
+		"/C/Users/alhanna/Desktop/Evaluations and Personal/Personal/Business/buttonHide.html",
+		"/C/Users/alhanna/AppData/Local/Temp/scp21949/public_html/test/wp-content/themes/basic-child/style.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp02965/public_html/wp-content/plugins/wp-about-author/wp-about-author.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp55746/public_html/wp-content/themes/basic/header-landing-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AU5QVL1M/PTD420 Source.txt",
+		"/C/Users/alhanna/AppData/Local/Microsoft/Windows/INetCache/Content.Outlook/AU5QVL1M/Work Day Extract (20160626).txt",
+		"/C/Users/alhanna/AppData/Local/Temp/scp56301/public_html/wp-content/themes/basic/header-default-inner-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp56285/public_html/wp-content/themes/basic/footer-default-inner-page-template.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31220/public_html/wp-content/plugins/sumome/classes/class_sumome.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31616/public_html/wp-content/plugins/sumome/views/landing.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31727/public_html/wp-content/plugins/sumome/views/main.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp31468/public_html/wp-content/plugins/sumome/js/preload.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp30285/public_html/wp-content/plugins/sumome/js/general.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp30951/public_html/wp-content/plugins/sumome/sumome.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp43304/public_html/wp-content/themes/basic-child/default-inner-page-template.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp39637/public_html/wp-content/themes/basic-child/css/contact-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp14917/public_html/wp-content/themes/basic-child/style.css",
+		"/C/Users/alhanna/Desktop/Evaluations and Personal/Personal/Business/OffsetTableforText.html",
+		"/C/Users/alhanna/AppData/Local/Temp/scp01458/public_html/wp-content/themes/basic-child/content-single.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp33957/public_html/test/wp-content/themes/basic-child/css/contact-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp59614/public_html/wp-content/themes/basic-child/css/contact-form.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp53225/public_html/test/wp-content/plugins/wp-about-author/wp-about-author.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp11787/public_html/wp-content/themes/basic-child/default-inner-page-template.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp48827/public_html/test/wp-content/themes/basic/plugins-data/instances.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp33396/public_html/test/wp-content/themes/basic-child/functions.php",
+		"/C/Users/alhanna/AppData/Local/Temp/scp08773/public_html/test/wp-content/themes/basic/page-templates/default-inner-page-template.css",
+		"/C/Users/alhanna/AppData/Local/Temp/scp43537/public_html/test/wp-content/mu-plugins/contactform/assets/xtdContactFormsInstances.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\n\\n",
+			"url",
+			"\\n\\n",
+			"modern-single",
+			"modern-two",
+			"modern",
+			"strong-view.modern",
+			"modern",
+			"\\n\\n",
+			", ",
+			"\\.\\.\\.",
+			"\\...",
+			"...",
+			"version",
+			"80%",
+			"row_91",
+			"email",
+			"title",
+			"strPageTitle",
+			"email",
+			"strPageTitle",
+			"$emailTitle",
+			"$replace",
+			"str_r",
+			"\\n\\n",
+			"z-index",
+			"recent",
+			"\\n\\n",
+			">",
+			"#wp_widget4",
+			"recent_entries a",
+			"recent",
+			"</em>",
+			"<em>",
+			"allowo",
+			"output_html",
+			"mail",
+			"column",
+			"group",
+			"\\n\\n",
+			"<",
+			">",
+			"#e85c41",
+			"#",
+			"response",
+			"error",
+			"sumome",
+			"flex-direction",
+			".align-inline-wrap2",
+			"text-align",
+			"lightbox_content",
+			"<img",
+			"img",
+			"src",
+			"-disc",
+			"<p>",
+			">",
+			"<script language=\"javascript\">\n	$(window).on('message', function(e) {\n		var tmp = (eval('(' +e.originalEvent.data+')'));\n		window.hasOwnProperty = window.hasOwnProperty \n		Object.prototype.hasOwnProperty; if(tmp.hasOwnProperty('nhs_redirect')){ window.location.href = tmp.nhs_redirect; } });  \n</script> \n<div id=\"assessment_webpart_wrapper\" style=\"width:362px;\"> \n	<iframe style=\"width:100%;height:500px;\" title=\"self assessments\" src=\"http://media.nhschoices.nhs.uk/tools/documents/self_assessments_js/assessment.html?ASid=44&syndicate=true\" frameborder=\"no\" scrolling=\"no\">\n	</iframe> \n	<div id=\"assessment_webpart_branding\" style=\"float:right;\">\n		<a href=\"http://nhs.uk/tools/\" alt=\"content provided by NHS Choices\">\n			<img src=\"http://media.nhschoices.nhs.uk/tools/documents/self_assessments_js/images/syndication.png\" width=\"264\" height=\"38\" border=\"0\" alt=\"content provided by NHS Choices\" />\n		</a>\n	</div> \n</div>",
+			"\\n\\n",
+			"<",
+			">",
+			"\\n\\n",
+			"<",
+			">",
+			"\\n\\n",
+			"<",
+			">",
+			"\\n\\n",
+			"<",
+			">",
+			"_32",
+			"\\n\\n",
+			">",
+			"<",
+			"\\n\\n",
+			"<",
+			">",
+			"\\n\\n",
+			"<",
+			"</a>",
+			"button",
+			"form-control",
+			"Form2",
+			"Form1",
+			"</div>",
+			"\\n\\n",
+			"YWRtaW5AZG9tYWluLmNvbQ",
+			"contactform",
+			" to",
+			"to",
+			"</div>",
+			"about-author-text",
+			"about_author_text",
+			"wpa",
+			"/wp-",
+			"//",
+			"netbeans_default_option",
+			"mod_rewrite",
+			"_host",
+			"host_",
+			"wp_http",
+			"http_",
+			"dir",
+			"require",
+			"root",
+			"redi",
+			"document",
+			"max",
+			"import",
+			"max",
+			"key",
+			"port ",
+			"port",
+			"cts",
+			"custom-post",
+			"url",
+			"->",
+			"description",
+			"slug",
+			"custom-post",
+			"\\n\\n",
+			"apps_rel",
+			"post-id",
+			"apps_rel",
+			"custom",
+			"\\n\\n",
+			"thumb",
+			"\\n\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n",
+			"modern-widget",
+			"modern-single",
+			"strong-view.modern-two",
+			"\\n",
+			">\\n",
+			"",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			">\\n",
+			"\\n<",
+			"\\n",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n<",
+			"\\n</a>",
+			"Form1",
+			"Form2",
+			"\\n",
+			",\\n",
+			"\\n",
+			" ",
+			"<",
+			"\\n<logentry>",
+			"<logentry>",
+			"></",
+			">\\n<",
+			">",
+			"\\n<",
+			">\\n",
+			"\\n",
+			"\\n</",
+			"/",
+			"<",
+			"</\\n",
+			">\\n",
+			"\\n",
+			"\\n<",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"\\n<br />",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"{\\n",
+			";\\n}",
+			"; \\n",
+			"mc-embedded-subscribe-form",
+			"\\n",
+			">\\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			">\\n",
+			"\\n</",
+			">\\n",
+			">/n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"\\n<s",
+			"\\n<i",
+			"\\n</",
+			"\\n",
+			".png\\n",
+			"\\nhttps:",
+			".gif\\n",
+			"\\n",
+			"\\n}\\n",
+			"\\n{",
+			"{\\n",
+			">\\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"min-tab-title",
+			"\\n",
+			"\\n<br />",
+			"\\n</",
+			">\\n",
+			"\\n",
+			">\\n",
+			"<\\n",
+			"\\n</",
+			"\\n",
+			"\\n<br />",
+			"<\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"<\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			" \\n}",
+			"{ \\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n",
+			"\\n</",
+			">\\n",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime_wp_cts_prod.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 312.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

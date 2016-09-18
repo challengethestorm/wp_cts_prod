@@ -1,0 +1,892 @@
+/* 
+Theme Name: ctsblog
+Theme URI: 
+Author: Alex Hanna
+Author URI: 
+Description: 
+Version: 1.0.0
+Tags: fixed-layout, fluid-layout, custom-background, custom-colors, custom-menu, featured-images, post-formats, theme-options, threaded-comments, sticky-post
+License: GNU General Public License version 3
+License URI: http://www.opensource.org/licenses/gpl-license.php GPL v3.0 (or later)
+*/
+/* GRID BASED ([{"device":"mobile","options":{"gutter":"15","columns":12,"width":"100%"}},{"device":"tablet","options":{"gutter":"15","columns":12,"width":"90%"}},{"device":"desktop","options":{"gutter":"15","columns":12,"width":"80%","maxWidth":"1232px"}}]) */
+ body {
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 170%;
+    color: #777777;
+    background-image:none;
+    background-size:auto;
+}
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 100%;
+    margin: 40px 0px 40px 0px;
+    color: #333333;
+    letter-spacing: -1px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    margin: 30px 0px 30px 0px;
+    color: #666666;
+    letter-spacing: -1px;
+}
+h3 {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 120%;
+    margin: 25px 0px 25px 0px;
+    color: #333333;
+}
+h4 {
+    font-size: 17px;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 25px 0px 25px 0px;
+    color: #333333;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+}
+h5 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 25px 0px 25px 0px;
+    color: #333333;
+}
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 10px 0px 10px 0px;
+    color: #333333;
+    text-transform:uppercase;
+}
+a {
+    line-height:170%;
+    color:#66CCFF;
+  /*  font-size: 17px; */
+    text-decoration:none;
+    cursor:pointer;
+    font-weight:700;
+}
+a:hover {
+    color: #51a3cc;
+}
+ul {
+    font-weight: 400;
+    line-height:170%;
+    margin: 10px 0px 10px 0px;
+    color: #777777;
+    padding:0px 0px 0px 40px;
+    list-style: none;
+}
+ul.no-list-style {
+    list-style:none;
+}
+ol {
+    font-weight: 400;
+    line-height: 170%;
+    margin: 10px 0px 10px 0px;
+    color: #444444;
+    padding:0px 0px 0px 40px;
+}
+span {
+    font-family: inherit;
+}
+blockquote {
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 20px 0px;
+    border-left: 5px solid #eee;
+    font-style:italic;
+}
+ol ul, ul ol, ul ul, ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body img {
+    max-width : 100%;
+    height : auto;
+}
+/* =WordPress Core
+
+-------------------------------------------------------------- */
+ .sticky {
+}
+.gallery-caption {
+}
+.bypostauthor {
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter, div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 1px 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 1px;
+}
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 1px 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 1px;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.blog-post {
+    min-height: 100px;
+    margin-bottom:50px;
+}
+.wp-post-image {
+    display: block;
+    margin: 20px auto;
+}
+span.span3 {
+    font-size: 13px;
+}
+span.span4 {
+    font-size: 13px;
+    color:#66CCFF;
+}
+span.span5 {
+    font-size: 13px;
+}
+span a.post-category {
+    line-height: 13px;
+    font-size:13px;
+    text-decoration:none;
+    font-weight:400;
+    color:#66CCFF;
+}
+.post-list a.next-page-link {
+    padding:13px 15px;
+    display:inline-block;
+    text-decoration:none;
+    background-color:#f2f3f4;
+    font-size:13px;
+    color:#23252a;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    font-weight:900;
+    font-family:Lato, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    float:none;
+    transition:all 0.4s linear 0s;
+}
+.post-list a.page-numbers {
+    text-decoration: none;
+    padding:11px 13px;
+    border-style:none;
+    border-width:0px;
+    border-color:transparent;
+    background-color:#f2f3f4;
+    font:700 13px/100% Lato, sans-serif;
+    color:#333333;
+    display:inline-block;
+    transition:all 0.4s linear 0s;
+}
+.post-list span.current {
+    padding:11px 13px;
+    border-style:none;
+    border-width:0px;
+    border-color:transparent;
+    background-color:#66CCFF;
+    margin:0 2px;
+    font:normal normal 700 13px/100% Lato, sans-serif;
+    color:#FFFFFF;
+    display:inline-block;
+}
+.post-list a.next-page-link:hover {
+    background-color: #66CCFF;
+    color:#FFFFFF;
+    transition:all 0.3s linear 0s;
+}
+a:visited {
+    /*color: #66CCFF;
+     old = #51a3cc*/
+}
+span a.post-category:hover {
+    color: #51a3cc;
+}
+p {
+    margin:20px 0px 20px 0px;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 170%;
+}
+li {
+    line-height:150%;
+    color:#333333;
+    font-weight: 300;
+}
+.checkmark li {
+    background: url("../../uploads/checkmark.png") left center no-repeat;
+    padding-left:30px;
+    line-height: 30px; 
+    color:#777777;
+    text-align: left;
+}
+.product-item{
+    line-height:150%;
+    color:#66CCFF;
+    font-weight: 300;
+    width: 20%;
+    float: left;
+    margin: 25px;
+}
+.row_subscribe {
+    background-color: #66CCFF;
+    box-shadow: rgba(0,0,0,0.5) -10px -10px 7px 0;
+    -moz-box-shadow: rgba(0,0,0,0.5) -10px -10px 7px 0;
+    -webkit-box-shadow: rgba(0,0,0,0.5) -10px -10px 7px 0;
+    width:98%;
+    margin: 15px auto;
+}
+
+/*-----------------------------------------MAILCHIMP FORM DETAILS-----------------------------------------*/
+/*
+#mc4wp-form-1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.mc4wp-form-fields {
+    display: flex;
+    justify-content: center;
+}
+.mc-column1 {
+    padding: 1% !important;
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+.mc-column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    float: left;
+}
+*/
+/*-----------------------------------------MAILCHIMP FIELDS-----------------------------------------*/
+/*
+.mc-column1 label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+}
+.mc-column1 h4 {
+    color: #FFFFFF;
+}
+p.mc-field {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+} 
+p.mc-field label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+    display: none;
+    width: 25%;
+}
+p.mc-field input {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    transition:all ease-in-out .4s;
+    padding: 15px 10px 15px 10px;
+    background-color:#FFFFFF;
+    border: solid 2px #CCCCCC;
+    width: 100%;
+    text-transform: uppercase;
+}
+p.mc-field input.button_white1 {
+    border: solid 2px #FFFFFF;
+}
+p.mc-field input.button_white1:hover {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+}
+*/
+/*-----------------------------------------MAILCHIMP SUBMIT BUTTON-----------------------------------------*/
+/*
+#mc-submit input.mc-button {
+    font-size: 15px;
+    padding: 5% 10%;
+    text-transform:uppercase;
+}
+a.button-blue,
+#mc-submit input.mc-button {
+    background-color: #66CCFF;
+    color: #FFFFFF;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    transition: all 0.4s linear 0s;
+    border: solid 2px #66CCFF;
+}
+a.button-blue:hover,
+#mc-submit input.mc-button:hover {
+    background-color: #FFFFFF;
+    color: #66CCFF;
+    cursor: pointer;
+}
+*/
+/*-----------------------------------------MAILCHIMP RESPONSE UPON SUBMISSION-----------------------------------------*/
+/*
+.mc4wp-response {
+    color: rgb(208,95,18);
+}
+.mc4wp-alert p,
+.mc4wp-notice p {
+    font-weight: 700 !important;
+}
+ */
+
+/*-----------------------------------------END MAILCHIMP SEGMENT-----------------------------------------*/
+
+
+a.button {
+    background-color: #FFFFFF;
+    color: #66CCFF;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    padding: 5px 5px;
+    margin-left: -5px;
+    transition: all 0.4s linear 0s;
+}
+
+a.button:hover {
+    background-color: #66CCFF;
+    color: #FFFFFF;
+}
+
+.prev-posts a {
+    font-size: 13px;
+    text-decoration:none;
+    font-weight:400;
+    font-family:Lato, sans-serif;
+    text-transform:uppercase;
+    color:#66CCFF;
+}
+.next-posts a {
+    text-decoration: none;
+    font-size:13px;
+    font-weight:400;
+    font-family:Lato, sans-serif;
+    text-transform:uppercase;
+    color:#66CCFF;
+}
+.content {
+    overflow: hidden;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:1%;
+}
+img.woocommerce-placeholder {
+    display: inline-block;
+    border-style:solid;
+    border-width:1px;
+    border-color:#66CCFF;
+}
+img.attachment-shop_catalog {
+    border-color: #66CCFF;
+    display:inline-block;
+    border-style:solid;
+    border-width:1px;
+}
+.shop-header {
+}
+
+@media only screen and (min-width : 768px) {
+    body {
+        text-align: left;
+    }
+    .post-list a.next-page-link {
+        padding-left: 25px;
+        padding-right:25px;
+        transition:all 0.4s linear 0s;
+    }
+    .post-list a.page-numbers {
+        border-width: 0px;
+        border-style:none;
+        transition:all 0.4s linear 0s;
+        padding:13px 15px;
+    }
+    .post-list span.current {
+        border-width: 0px;
+        display:inline-block;
+        padding:11px;
+    }
+    li.first {
+        width: 50%;
+    }
+    li.product-category {
+        width: 50%;
+    }
+}
+@media only screen and (min-width : 1024px) {
+    body {
+        text-align: left;
+    }
+    .post-list a.page-numbers {
+        border-top-width: 0px;
+        border-right-width:0px;
+        border-bottom-width:0px;
+        border-left-width:0px;
+        border-style:none;
+        display:inline-block;
+        transition:all 0.4s linear 0s;
+        padding:13px 15px;
+    }
+    .post-list span.current {
+        border-width:0;
+        border-style:none;
+        display:inline-block;
+        padding:11px;
+    }
+    .content {
+        margin-top: 1%;
+        margin-left:2%;
+    }
+    .post-list a.next-page-link {
+        transition: all 0.4s linear 0s;
+        padding-left:25px;
+        padding-right:25px;
+    }
+    li.first {
+        width: 50%;
+        float:left;
+    }
+    li.product-category {
+        width: 50%;
+        display:inline-block;
+    }
+    .woocommerce-wrapper .products li.product-category a img {
+        float: left;
+        display:inline-block;
+    }
+}
+
+/*REGISTER BUTTON INSIDE OF HEADER SECTION*/
+.button_white1,
+.button_blue {
+    display:inline-block;
+    font-size:15px;
+    font-family: Lato,sans-serif;
+    line-height:157%;
+    margin:10px 0;
+    text-decoration:none;
+    padding:15px 30px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    cursor:pointer;
+    text-align:center;
+    transition: all 0.4s linear 0s;
+    font-weight:700;
+}
+.button_white1 {
+    background-color: #FFFFFF;
+    color:#66CCFF;
+    border:2px solid #FFFFFF;
+}
+.button_blue {
+    background-color: #66CCFF;
+    color:#FFFFFF;
+    border:2px solid #66CCFF;
+}
+.button_white1:hover,
+a.register-button:hover {
+    color: #FFFFFF;
+    background-color: #66CCFF;
+}
+.button_blue:hover {
+    color: #66CCFF;
+    background-color: #FFFFFF;
+}
+
+
+
+/*-----------------------------------------START MAILCHIMP SIGNUP FORM STYLE------------------------------*/
+/*-----------------------------------------MAILCHIMP FORM DETAILS-----------------------------------------*/
+/*
+#mc4wp-form-1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.mc4wp-form-fields {
+    display: flex;
+    justify-content: center;
+}
+.mc-column1 {
+    padding: 1% !important;
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+.mc-column2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    float: left;
+}
+*/
+/*-----------------------------------------MAILCHIMP FIELDS-----------------------------------------*/
+/*
+.mc-column1 label {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+}
+.mc-column1 h4 {
+    color: #FFFFFF;
+}
+p.mc-field {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+} 
+p.mc-field-hidden {
+    display:none;
+}
+p.mc-field label {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Lato, sans-serif;
+    display: none;
+    width: 25%;
+    color: #FFF;
+}
+p.mc-field span.chkbox {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+p.mc-field span.chkbox span {
+    vertical-align: middle;
+    display:inline;
+}
+p.mc-field label.mc-label-interest {
+    width: 100%;
+    display: inline-block;
+    float:left;
+    font-size: 21px;
+    font-weight: bold;
+    border-bottom: 2px solid #FFF;
+    margin:0;
+}
+
+p.mc-field input {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    transition:all ease-in-out .4s;
+    padding: 15px 10px 15px 10px;
+    background-color:#FFFFFF;
+    border: solid 2px #CCCCCC;
+    width: 100%;
+    text-transform: uppercase;
+}
+p.mc-field label.mc-label-checkbox {
+    width: auto;
+    display: inline;
+    float:left;
+    font-size: 18px;
+    vertical-align: middle;
+    height:100%;
+}
+p.mc-field input.mc-input-checkbox {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+    transition:all ease-in-out .4s;
+    padding: 15px 10px 15px 10px;
+    background-color:#FFFFFF;
+    border: solid 2px #CCCCCC;
+    width: auto;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+    height:100%;
+    vertical-align: middle;
+}
+*/
+/*---------------------------------------INTEREST GROUP SECTION CHECKBOXES--------------------------------*/
+/*
+.input-group {
+    font-size: 18px;
+    color: #FFF;
+}
+.mc-checkbox-label {
+    color: #FFF;
+}
+.mc-checkbox-input {
+}
+p.mc-field input.button_white1 {
+    border: solid 2px #FFFFFF;
+}
+p.mc-field input.button_white1:hover {
+    font-size:15px;
+    font-weight: 400;
+    font-family: Lato, sans-serif;
+}
+*/
+/*-----------------------------------------MAILCHIMP SUBMIT BUTTON-----------------------------------------*/
+/*
+#mc-submit input.mc-button {
+    font-size: 15px;
+    padding: 5% 10%;
+    text-transform:uppercase;
+}
+a.button-blue,
+#mc-submit input.mc-button {
+    background-color: #66CCFF;
+    color: #FFFFFF;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    transition: all 0.4s linear 0s;
+    border: solid 2px #66CCFF;
+}
+a.button-blue:hover,
+#mc-submit input.mc-button:hover {
+    background-color: #FFFFFF;
+    color: #66CCFF;
+    cursor: pointer;
+}
+*/
+/*-----------------------------------------MAILCHIMP RESPONSE UPON SUBMISSION-----------------------------------------*/
+/*
+.mc4wp-response {
+    color: rgb(208,95,18);
+}
+.mc4wp-alert p,
+.mc4wp-notice p {
+    font-weight: 700 !important;
+}
+*/
+/*-----------------------------------------END MAILCHIMP SEGMENT-------------------------------------------*/
+
+/*---------------------------------BEGIN SIGN UP BAR SECTION OF CONTENT-SINGLE BLOG PAGE-------------------*/
+
+.row_31 {
+    clear: both;
+    width: auto;
+    min-height: 100px;
+    background-color:#66CCFF;
+    margin-bottom:30px;
+    margin-top:-20px;
+}
+.column_29 {
+    width: 100%;
+    min-height: 100px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.row_32 {
+    clear: both;
+    width: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.column_30 {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    color:#FFFFFF;
+    padding:30px 15px 10px 15px;
+    text-align:center;
+}
+.column_30 h4 {
+    color: #FFFFFF;
+    line-height:200%;
+}
+.column_31 {
+    float: none;
+    width: 100%;
+    min-height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom:15px;
+}
+.align-inline-wrap2 {
+    text-align:center;
+}
+@media only screen and (min-width : 768px) {
+    .row_31 {
+    }
+    .column_29 {
+        width: 90%;
+        padding-left:15px;
+        padding-right:15px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .row_32 {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .column_30 {
+        float: left;
+        width: 100%;
+        min-height: 50px;
+        text-align:center;
+        padding:15px;
+    }
+    .column_31 {
+        float: left;
+        width: 100%;
+        min-height: 50px;
+        padding:30px 15px 0px 15px;
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    .row_31 {
+        clear: both;
+        width: auto;
+        min-height:100px;
+    }
+    .column_29 {
+        float: none;
+        width: 80%;
+        padding-left:15px;
+        padding-right:15px;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:1232px;
+    }
+    .row_32 {
+        clear: both;
+        width: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .column_30 {
+        float: left;
+        width:66.6667%;
+        min-height:100px;
+        text-align:right;
+        padding:15px;
+    }
+    .column_31 {
+        float: left;
+        width:33.3333%;
+        padding:30px;
+        min-height:100px;
+    }
+}
+/*-----------------------------------------END SIGN UP BAR-----------------------------------------*/
+
+.faded-sun td.faded-sun-img {
+   /* padding-left: 50%;
+    background: url("//challengethestorm.org/wp-content/uploads/2016/06/image4304.png") no-repeat; */
+}
+.faded-sun td.faded-sun-img {
+    background-image: none;
+}
+.faded-sun {
+    
+}
+@media only screen and (min-width : 768px) {
+    .faded-sun td.faded-sun-img {
+        padding-left:50%;
+        background: url("//challengethestorm.org/wp-content/uploads/2016/06/image4304.png") no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        content:"";
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        border-radius: 10px;
+        border: 0px solid;
+    }
+}
+#embed-table-image a img {
+    border-radius: 10px;
+}
+#embed-table-image a:before {
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(49%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+
+

@@ -1,0 +1,1 @@
+<?php require WPMU_PLUGIN_DIR.'/onepage/onepage.php';

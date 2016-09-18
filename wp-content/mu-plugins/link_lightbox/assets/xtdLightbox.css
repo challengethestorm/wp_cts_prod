@@ -1,0 +1,109 @@
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+ .xtd-body-fix {
+ 	overflow:hidden;
+ 	padding-right: 17px;
+ }
+
+ .fancybox-outer-wrapper{
+ 	width:0;
+ 	height:0;
+ }
+
+ #fancybox-overlay{
+    display: none;
+}
+
+
+.xtd-mobile-caption-title{
+    color: rgba(255,255,255,0.84);
+}
+
+.xtd-mobile-caption-number{
+    margin-left: 10px;
+    rgba(255,255,255,0.4);
+}
+
+
+
+#xtd-mobile-close-button {
+    cursor: pointer;
+    display: block;
+    width: 62px;
+    height: 62px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozMDExREQ0NDE0QjYxMUUzQURDQUZBNzNGQzNCMTM0QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozMDExREQ0NTE0QjYxMUUzQURDQUZBNzNGQzNCMTM0QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjMwMTFERDQyMTRCNjExRTNBRENBRkE3M0ZDM0IxMzRDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjMwMTFERDQzMTRCNjExRTNBRENBRkE3M0ZDM0IxMzRDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+eZ6mhAAAAXNJREFUeNrs109Kw0AUBvDJ0KWIG2svIG5s1l2LeADP0YXLSlIMNFRP4wGkB3CddFHwAk3cSOtevzdtaZCqYfoSX2QefCGFmfTH/CPxkiRRqFPkAblEDpWMWiATZIC8tHA5Q56RIyWraMCukQukp3EZC0QWi2xjvZ5u6XWlBa3Jn+pAq4aUgzqogzrof4O+5nktffaCZvO5uun31TRNS/ehttSH+tYGPel01O0wVPejUSkstaG2gzA0fWud+vOuXwpbRHZ9/282029YLiTLrv8Oy4mk8vAp8sFxfEzTBLAY6KH5zYlkhW6wcRSZ++AuYkNWcOB72zuP98ktvtFcrUkaSUKulkFo1rCYEf26cbYbLDbLQQR0gyRYcU1yYzUXctcUc2J1VUhurBU0z7JSyF1Y25cS63OUXtmO2+3K++w99TZ/aIt0nyIO6qAO6qA80EUDnO8EnTQA+kTQAHkTjCRbQNAZ0kMekaUg4HJtItvsU4ABAHgqvWwLNLTGAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    z-index: 19991;
+}
+
+
+
+a.xtdLightbox img {
+	border:none;
+}
+
+ #fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1101;
+	outline: none;
+	display: none;
+	margin-top:20px;
+}
+
+
+ #fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: 1101;
+}
+
+
+ #fancybox-frame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+	background: #fff;
+}
+
+
+ .fancybox-bg {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 20px;
+	z-index: 1001;
+}
+
+
+.xtd-hide{
+	display:none;
+}

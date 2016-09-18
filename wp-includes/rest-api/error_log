@@ -1,0 +1,3 @@
+[10-Jul-2016 02:12:37 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home1/challex0/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[14-Jul-2016 08:55:32 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home1/challex0/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[22-Jul-2016 04:15:32 America/Denver] PHP Fatal error:  Class 'WP_HTTP_Response' not found in /home1/challex0/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17

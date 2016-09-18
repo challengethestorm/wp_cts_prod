@@ -1,0 +1,4 @@
+[2016-09-10 21:56:21] WPMTST_UPDATE_TABLES = Array
+(
+    [wp_mfab_strong_views] => Created table wp_mfab_strong_views
+)

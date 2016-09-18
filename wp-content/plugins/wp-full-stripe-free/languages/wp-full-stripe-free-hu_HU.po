@@ -1,0 +1,380 @@
+# Copyright (C) 2016 Mammothology
+# This file is distributed under the same license as the WP Full Stripe Free package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Full Stripe Free 1.4.0\n"
+"Report-Msgid-Bugs-To: https://mammothology.com/forums/\n"
+"POT-Creation-Date: 2016-03-25 16:51:40+00:00\n"
+"PO-Revision-Date: 2016-03-24 21:48+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: include/wp-full-stripe-customer.php:44
+msgid ""
+"The payment amount is invalid, please only use numbers and a decimal point."
+msgstr ""
+"A megadott összeg érvénytelen, csak számokat és tizedespontot használjon"
+
+#: include/wp-full-stripe-customer.php:63
+msgid "Please enter a valid billing address."
+msgstr "Kérjük, adjon meg egy érvényes számlázási címet"
+
+#: include/wp-full-stripe-customer.php:74
+msgid "Please enter a valid email address."
+msgstr "Kérjük, adjon meg egy érvényes e-mail címet"
+
+#: include/wp-full-stripe-customer.php:110
+msgid "Payment Successful!"
+msgstr "Sikeres fizetés!"
+
+#. translators: message for Stripe error code 'invalid_number'
+#: include/wp-full-stripe-payments.php:71
+msgid "The card number is not a valid credit card number."
+msgstr "The kártyaszám érvénytelen."
+
+#. translators: message for Stripe error code 'invalid_expiry_month'
+#: include/wp-full-stripe-payments.php:74
+msgid "The card's expiration month is invalid."
+msgstr "A kártya lejárati dátumának hónapja érvénytelen."
+
+#. translators: message for Stripe error code 'invalid_expiry_year'
+#: include/wp-full-stripe-payments.php:77
+msgid "The card's expiration year is invalid."
+msgstr "A kártya lejárati dátumának éve érvénytelen."
+
+#. translators: message for Stripe error code 'invalid_cvc'
+#: include/wp-full-stripe-payments.php:80
+msgid "The card's security code is invalid."
+msgstr "A kárya biztonsági kódja érvénytelen."
+
+#. translators: message for Stripe error code 'incorrect_number'
+#: include/wp-full-stripe-payments.php:83
+msgid "The card number is incorrect."
+msgstr "The kártyaszám érvénytelen."
+
+#. translators: message for Stripe error code 'expired_card'
+#: include/wp-full-stripe-payments.php:86
+msgid "The card has expired."
+msgstr "A kártya lejárt."
+
+#. translators: message for Stripe error code 'incorrect_cvc'
+#: include/wp-full-stripe-payments.php:89
+msgid "The card's security code is incorrect."
+msgstr "A kárya biztonsági kódja érvénytelen."
+
+#. translators: message for Stripe error code 'incorrect_zip'
+#: include/wp-full-stripe-payments.php:92
+msgid "The card's zip code failed validation."
+msgstr "A kártyához tartozó irányítószám elbukott az ellenőrzésen."
+
+#. translators: message for Stripe error code 'card_declined'
+#: include/wp-full-stripe-payments.php:95
+msgid "The card was declined."
+msgstr "A kártyát elutasították."
+
+#. translators: message for Stripe error code 'missing'
+#: include/wp-full-stripe-payments.php:98
+msgid "There is no card on a customer that is being charged."
+msgstr "A terheléshez tartozó ügyfélhez nem rendeltek kártyát."
+
+#. translators: message for Stripe error code 'processing_error'
+#: include/wp-full-stripe-payments.php:101
+msgid "An error occurred while processing the card."
+msgstr "Hiba történt a fizetés feldolgozása közben."
+
+#: include/wp-full-stripe-table-payments.php:39
+msgid "Stripe ID"
+msgstr "Stripe azonosító"
+
+#: include/wp-full-stripe-table-payments.php:40
+msgid "Description"
+msgstr "Leírás"
+
+#: include/wp-full-stripe-table-payments.php:41
+msgid "Paid"
+msgstr "Fizetett"
+
+#: include/wp-full-stripe-table-payments.php:42
+msgid "Live mode"
+msgstr "Élő üzemmód"
+
+#: include/wp-full-stripe-table-payments.php:43
+msgid "Amount"
+msgstr "Összeg"
+
+#: include/wp-full-stripe-table-payments.php:44
+msgid "Stripe Fee"
+msgstr "Stripe díj"
+
+#: include/wp-full-stripe-table-payments.php:45
+msgid "Address"
+msgstr "Cím"
+
+#: include/wp-full-stripe-table-payments.php:46
+msgid "Date"
+msgstr "Dátum"
+
+#: pages/forms/payment_form_compact.php:19
+#: pages/forms/payment_form_inline.php:14 pages/fullstripe_payment_form.php:31
+msgid "Email Address"
+msgstr "E-mail cím"
+
+#: pages/forms/payment_form_compact.php:31
+#: pages/forms/payment_form_inline.php:26 pages/fullstripe_payment_form.php:47
+msgid "Payment Amount"
+msgstr "Fizetendő összeg"
+
+#: pages/forms/payment_form_compact.php:38
+#: pages/forms/payment_form_inline.php:33 pages/fullstripe_payment_form.php:55
+msgid "Billing Address Street"
+msgstr "Számlázási cím - utca"
+
+#: pages/forms/payment_form_compact.php:42
+#: pages/forms/payment_form_inline.php:37 pages/fullstripe_payment_form.php:61
+msgid "Billing Address Line 2"
+msgstr "Számlázási cím - 2. sor"
+
+#: pages/forms/payment_form_compact.php:46
+#: pages/forms/payment_form_inline.php:41 pages/fullstripe_payment_form.php:67
+msgid "City"
+msgstr "Település"
+
+#: pages/forms/payment_form_compact.php:50
+#: pages/forms/payment_form_inline.php:45 pages/fullstripe_payment_form.php:73
+msgid "State"
+msgstr "Megye"
+
+#: pages/forms/payment_form_compact.php:54
+#: pages/forms/payment_form_inline.php:49 pages/fullstripe_payment_form.php:79
+msgid "Zip"
+msgstr "Irányítószám"
+
+#: pages/forms/payment_form_compact.php:62
+msgid "Credit Cards"
+msgstr "Bankkártyák"
+
+#: pages/forms/payment_form_compact.php:65
+#: pages/forms/payment_form_inline.php:58 pages/fullstripe_payment_form.php:24
+msgid "Card Holder's Name"
+msgstr "Kártyatulajdonos neve"
+
+#: pages/forms/payment_form_compact.php:69
+#: pages/forms/payment_form_inline.php:62 pages/fullstripe_payment_form.php:87
+msgid "Card Number"
+msgstr "Kártyaszám"
+
+#: pages/forms/payment_form_compact.php:73
+#: pages/forms/payment_form_inline.php:66 pages/fullstripe_payment_form.php:103
+msgid "Card CVV"
+msgstr "Kártya biztonsági kód"
+
+#: pages/forms/payment_form_compact.php:77
+#: pages/forms/payment_form_inline.php:70
+msgid "Month"
+msgstr "Hónap"
+
+#: pages/forms/payment_form_compact.php:79
+#: pages/forms/payment_form_inline.php:72
+msgid "January"
+msgstr "Január"
+
+#: pages/forms/payment_form_compact.php:80
+#: pages/forms/payment_form_inline.php:73
+msgid "February"
+msgstr "Február"
+
+#: pages/forms/payment_form_compact.php:81
+#: pages/forms/payment_form_inline.php:74
+msgid "March"
+msgstr "Március"
+
+#: pages/forms/payment_form_compact.php:82
+#: pages/forms/payment_form_inline.php:75
+msgid "April"
+msgstr "Április"
+
+#: pages/forms/payment_form_compact.php:83
+#: pages/forms/payment_form_inline.php:76
+msgid "May"
+msgstr "Május"
+
+#: pages/forms/payment_form_compact.php:84
+#: pages/forms/payment_form_inline.php:77
+msgid "June"
+msgstr "Június"
+
+#: pages/forms/payment_form_compact.php:85
+#: pages/forms/payment_form_inline.php:78
+msgid "July"
+msgstr "Július"
+
+#: pages/forms/payment_form_compact.php:86
+#: pages/forms/payment_form_inline.php:79
+msgid "August"
+msgstr "Augusztus"
+
+#: pages/forms/payment_form_compact.php:87
+#: pages/forms/payment_form_inline.php:80
+msgid "September"
+msgstr "Szeptember"
+
+#: pages/forms/payment_form_compact.php:88
+#: pages/forms/payment_form_inline.php:81
+msgid "October"
+msgstr "Október"
+
+#: pages/forms/payment_form_compact.php:89
+#: pages/forms/payment_form_inline.php:82
+msgid "November"
+msgstr "November"
+
+#: pages/forms/payment_form_compact.php:90
+#: pages/forms/payment_form_inline.php:83
+msgid "December"
+msgstr "December"
+
+#: pages/forms/payment_form_compact.php:94
+#: pages/forms/payment_form_inline.php:87
+msgid "Year"
+msgstr "Év"
+
+#: pages/forms/payment_form_compact.php:118
+#: pages/forms/payment_form_inline.php:111
+#: pages/fullstripe_payment_form.php:115 pages/fullstripe_payment_form.php:122
+msgid "Loading..."
+msgstr "Betöltés..."
+
+#: pages/fragments/redirect_to_for_create.php:26
+#: pages/fragments/redirect_to_for_edit.php:26
+#: pages/fullstripe_admin_page.php:64
+msgid "Select from the list or start typing"
+msgstr "Válasszon a listából, vagy kezdjen gépelni"
+
+#: pages/fullstripe_about_page.php:2
+msgid "Welcome to WP Full Stripe Free Edition"
+msgstr "Üdvözöljük a WP Full Stripe Free kiadásában"
+
+#: pages/fullstripe_about_page.php:8
+msgid "Help & Support"
+msgstr "Segítség & Támogatás"
+
+#: pages/fullstripe_about_page.php:13
+msgid "Upgrade"
+msgstr "Frissítés"
+
+#: pages/fullstripe_about_page.php:31
+msgid "Changelog"
+msgstr "Változások listája"
+
+#: pages/fullstripe_admin_page.php:5
+msgid "Full Stripe Settings"
+msgstr "Full Stripe beállítások"
+
+#: pages/fullstripe_admin_page.php:15
+msgid "Stripe Test Secret Key: "
+msgstr "Stripe Teszt titkos kulcs: "
+
+#: pages/fullstripe_admin_page.php:23
+msgid "Stripe Test Publishable Key: "
+msgstr "Stripe Teszt közzétehető kulcs: "
+
+#: pages/fullstripe_admin_page.php:31
+msgid "Stripe Live Secret Key: "
+msgstr "Stripe Élő titkos kulcs: "
+
+#: pages/fullstripe_admin_page.php:39
+msgid "Stripe Live Publishable Key: "
+msgstr "Stripe Élő közzétehető kulcs: "
+
+#: pages/fullstripe_admin_page.php:47
+msgid "API mode: "
+msgstr "API üzemmód: "
+
+#: pages/fullstripe_admin_page.php:59
+msgid "Payment Currency: "
+msgstr "Fizetés pénzneme: "
+
+#: pages/fullstripe_admin_page.php:83
+msgid "Include Default Styles: "
+msgstr "Alapértelmezett stílusok engedélyezése: "
+
+#: pages/fullstripe_admin_page.php:96
+msgid "Save Changes"
+msgstr "Változások elmentése"
+
+#: pages/fullstripe_edit_form_page.php:32
+msgid "Full Stripe Edit Form"
+msgstr "Full Stripe űrlap szerkesztés"
+
+#: pages/fullstripe_help_page.php:2
+msgid "Full Stripe Help"
+msgstr "Full Stripe segítség"
+
+#: pages/fullstripe_payment_form.php:94
+msgid "Card Expiry Date"
+msgstr "Kártya érvényességi ideje"
+
+#: pages/fullstripe_payments_page.php:14
+msgid "Full Stripe Payments"
+msgstr "Full Stripe fizetések"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Full Stripe Free"
+msgstr "WP Full Stripe Free"
+
+#. Plugin URI of the plugin/theme
+msgid "http://paymentsplugin.com"
+msgstr "http://paymentsplugin.com"
+
+#. Description of the plugin/theme
+msgid "Free version of WP Full Stripe, a Stripe payments plugin."
+msgstr "A WP Full Stripe ingyenes változata, egy Stripe fizetési plugin"
+
+#. Author of the plugin/theme
+msgid "Mammothology"
+msgstr "Mammothology"
+
+#. Author URI of the plugin/theme
+msgid "http://mammothology.com"
+msgstr "http://mammothology.com"
+
+#~ msgid ""
+#~ "The payment amount is invalid, please only use numbers and a decimal point"
+#~ msgstr ""
+#~ "A megadott összeg érvénytelen, csak számokat és tizedespontot használjon"
+
+#~ msgid "Please enter a valid billing address"
+#~ msgstr "Kérjük, adjon meg egy érvényes számlázási címet"
+
+#~ msgid "Please enter a valid email address"
+#~ msgstr "Kérjük, adjon meg egy érvényes e-mail címet"
+
+#~ msgid "There was an error processing your payment: "
+#~ msgstr "Hiba történt a fizetés feldolgozása során: "
+
+#~ msgid "Payment Test Default"
+#~ msgstr "Fizetési Teszt Normál"
+
+#~ msgid "Payment Test Compact"
+#~ msgstr "Fizetési Teszt Kompakt"
+
+#~ msgid "Custom Label 1"
+#~ msgstr "Egyedi cimke 1"
+
+#~ msgid "Make Payment"
+#~ msgstr "Fizetés"

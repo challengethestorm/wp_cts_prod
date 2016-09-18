@@ -1,0 +1,1 @@
+<img class="Clients-Company-Image-field2" src="<?php echo do_shortcode('[cp_post_meta name="Company Image"]'); ?>">

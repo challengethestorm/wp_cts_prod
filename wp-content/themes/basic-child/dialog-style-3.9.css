@@ -1,0 +1,93 @@
+div[aria-describedby="expresscurate_clone_dialog"],
+div[aria-describedby="expresscurate_dialog"]{
+    padding: 0 !important;
+    border-radius: 0 !important;
+    border:none;
+    z-index: 1002 !important;
+}
+.ui-widget-overlay{
+    font-weight: normal;
+    opacity:.6 !important;
+    background: #000 !important;
+    position: fixed;
+    z-index: 1001 !important;
+}
+div[aria-describedby="expresscurate_clone_dialog"] .ui-dialog-titlebar,
+div[aria-describedby="expresscurate_dialog"] .ui-dialog-titlebar{
+	padding: 0;
+	font-size: 13px !important;
+	line-height: 30px;
+	color: #fff;
+	height: 30px;
+	border:none;
+    border-radius: 0;
+    background-color: #222222;
+}
+div[aria-describedby="expresscurate_clone_dialog"] .ui-dialog-title,
+div[aria-describedby="expresscurate_dialog"] .ui-dialog-title{
+	display: block;
+	text-align: center;
+    width: 100%;
+    background: #222222;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    height: 20px;
+}
+
+div[aria-describedby="expresscurate_clone_dialog"] .ui-button-icon-primary,
+div[aria-describedby="expresscurate_clone_dialog"] .ui-dialog-titlebar-close span,
+div[aria-describedby="expresscurate_dialog"] .ui-button-icon-primary,
+div[aria-describedby="expresscurate_dialog"] .ui-dialog-titlebar-close span{
+    display: none !important;
+}
+
+div[aria-describedby="expresscurate_clone_dialog"] .ui-dialog-titlebar-close:before,
+div[aria-describedby="expresscurate_dialog"] .ui-dialog-titlebar-close:before{
+	line-height: 13px;
+}
+div[aria-describedby="expresscurate_clone_dialog"] .ui-button.ui-dialog-titlebar-close,
+div[aria-describedby="expresscurate_dialog"] .ui-button.ui-dialog-titlebar-close{
+	padding: 0 !important;
+    background: none;
+    border: none;
+    width: 25px;
+    height: 30px;
+    position: absolute !important;
+    top: 0 !important;
+    margin: 0 !important;
+}
+div[aria-describedby="expresscurate_clone_dialog"] .ui-dialog-titlebar-close:before,
+div[aria-describedby="expresscurate_dialog"] .ui-dialog-titlebar-close:before{
+    line-height: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+div[aria-describedby="expresscurate_clone_dialog"] .ui-button.ui-dialog-titlebar-close:hover,
+div[aria-describedby="expresscurate_dialog"] .ui-button.ui-dialog-titlebar-close:hover{
+    color: #9d9d9d;
+}
+
+#expresscurate_dialog {
+    width: 829px !important;
+}
+.expresscurate_dialog {
+	padding: 0 !important;
+	border:none;
+}
+#wp-fullscreen-buttons .mce-btn, .mce-toolbar .mce-btn-group .mce-btn, .qt-fullscreen{
+	margin: 1px !important;
+}
+.mce-toolbar .mce-btn[aria-label='Highlight Keywords'] i{
+    width: 23px !important;
+    background-repeat: no-repeat;
+}
+#expresscurate_dialog_content_clone_editor{
+    height: 190px;
+    resize: none;
+    max-height: 190px;
+    overflow-y: scroll;
+}
